@@ -1,0 +1,5472 @@
+{
+ "summary": {
+  "runs": 3,
+  "samples": 300,
+  "processing": {
+   "mean": 0.02,
+   "median": 0.02,
+   "max": 0.17,
+   "min": 0.01,
+   "p95": 0.04
+  },
+  "search": {
+   "mean": 2.35,
+   "median": 2.09,
+   "max": 16.77,
+   "min": 0.65,
+   "p95": 4.42
+  },
+  "retrieval": {
+   "mean": 0.01,
+   "median": 0.01,
+   "max": 0.14,
+   "min": 0,
+   "p95": 0.02
+  },
+  "server_total": {
+   "mean": 2.38,
+   "median": 2.13,
+   "max": 17.08,
+   "min": 0.68,
+   "p95": 4.46
+  }
+ },
+ "samples": [
+  {
+   "run": 1,
+   "query_id": 1,
+   "category": "مباشرة",
+   "processing": 0.170904,
+   "search": 16.76938,
+   "retrieval": 0.136594,
+   "server_total": 17.076878
+  },
+  {
+   "run": 1,
+   "query_id": 2,
+   "category": "لفظ دارج",
+   "processing": 0.07642,
+   "search": 2.08864,
+   "retrieval": 0.016282,
+   "server_total": 2.181342
+  },
+  {
+   "run": 1,
+   "query_id": 3,
+   "category": "صيغة طلب",
+   "processing": 0.088994,
+   "search": 2.265206,
+   "retrieval": 0.014652,
+   "server_total": 2.368852
+  },
+  {
+   "run": 1,
+   "query_id": 4,
+   "category": "مع خاصية",
+   "processing": 0.057335,
+   "search": 3.940713,
+   "retrieval": 0.012756,
+   "server_total": 4.010804
+  },
+  {
+   "run": 1,
+   "query_id": 5,
+   "category": "تنوع كتابي",
+   "processing": 0.033614,
+   "search": 2.408357,
+   "retrieval": 0.011784,
+   "server_total": 2.453755
+  },
+  {
+   "run": 1,
+   "query_id": 6,
+   "category": "مباشرة",
+   "processing": 0.027467,
+   "search": 8.307013,
+   "retrieval": 0.016313,
+   "server_total": 8.350793
+  },
+  {
+   "run": 1,
+   "query_id": 7,
+   "category": "لفظ دارج",
+   "processing": 0.03907,
+   "search": 3.480476,
+   "retrieval": 0.014003,
+   "server_total": 3.533549
+  },
+  {
+   "run": 1,
+   "query_id": 8,
+   "category": "صيغة طلب",
+   "processing": 0.055832,
+   "search": 2.659654,
+   "retrieval": 0.0112,
+   "server_total": 2.726686
+  },
+  {
+   "run": 1,
+   "query_id": 9,
+   "category": "مع خاصية",
+   "processing": 0.033187,
+   "search": 3.724794,
+   "retrieval": 0.020388,
+   "server_total": 3.778369
+  },
+  {
+   "run": 1,
+   "query_id": 10,
+   "category": "تنوع كتابي",
+   "processing": 0.044023,
+   "search": 2.209484,
+   "retrieval": 0.013478,
+   "server_total": 2.266985
+  },
+  {
+   "run": 1,
+   "query_id": 11,
+   "category": "مباشرة",
+   "processing": 0.026192,
+   "search": 1.46876,
+   "retrieval": 0.011958,
+   "server_total": 1.50691
+  },
+  {
+   "run": 1,
+   "query_id": 12,
+   "category": "لفظ دارج",
+   "processing": 0.020976,
+   "search": 1.283003,
+   "retrieval": 0.011659,
+   "server_total": 1.315638
+  },
+  {
+   "run": 1,
+   "query_id": 13,
+   "category": "صيغة طلب",
+   "processing": 0.024136,
+   "search": 1.307616,
+   "retrieval": 0.011709,
+   "server_total": 1.343461
+  },
+  {
+   "run": 1,
+   "query_id": 14,
+   "category": "مع خاصية",
+   "processing": 0.041652,
+   "search": 1.790526,
+   "retrieval": 0.011948,
+   "server_total": 1.844126
+  },
+  {
+   "run": 1,
+   "query_id": 15,
+   "category": "تنوع كتابي",
+   "processing": 0.018426,
+   "search": 1.556702,
+   "retrieval": 0.01306,
+   "server_total": 1.588188
+  },
+  {
+   "run": 1,
+   "query_id": 16,
+   "category": "مباشرة",
+   "processing": 0.020526,
+   "search": 1.634904,
+   "retrieval": 0.013547,
+   "server_total": 1.668977
+  },
+  {
+   "run": 1,
+   "query_id": 17,
+   "category": "لفظ دارج",
+   "processing": 0.019706,
+   "search": 1.439788,
+   "retrieval": 0.011077,
+   "server_total": 1.470571
+  },
+  {
+   "run": 1,
+   "query_id": 18,
+   "category": "صيغة طلب",
+   "processing": 0.021928,
+   "search": 1.327135,
+   "retrieval": 0.010942,
+   "server_total": 1.360005
+  },
+  {
+   "run": 1,
+   "query_id": 19,
+   "category": "مع خاصية",
+   "processing": 0.021528,
+   "search": 1.973907,
+   "retrieval": 0.012422,
+   "server_total": 2.007857
+  },
+  {
+   "run": 1,
+   "query_id": 20,
+   "category": "تنوع كتابي",
+   "processing": 0.041062,
+   "search": 1.62731,
+   "retrieval": 0.011589,
+   "server_total": 1.679961
+  },
+  {
+   "run": 1,
+   "query_id": 21,
+   "category": "مباشرة",
+   "processing": 0.018816,
+   "search": 1.278821,
+   "retrieval": 0.010046,
+   "server_total": 1.307683
+  },
+  {
+   "run": 1,
+   "query_id": 22,
+   "category": "لفظ دارج",
+   "processing": 0.041185,
+   "search": 1.574485,
+   "retrieval": 0.008944,
+   "server_total": 1.624614
+  },
+  {
+   "run": 1,
+   "query_id": 23,
+   "category": "صيغة طلب",
+   "processing": 0.023907,
+   "search": 1.209899,
+   "retrieval": 0.008699,
+   "server_total": 1.242505
+  },
+  {
+   "run": 1,
+   "query_id": 24,
+   "category": "مع خاصية",
+   "processing": 0.020815,
+   "search": 1.744517,
+   "retrieval": 0.012612,
+   "server_total": 1.777944
+  },
+  {
+   "run": 1,
+   "query_id": 25,
+   "category": "تنوع كتابي",
+   "processing": 0.017205,
+   "search": 3.221173,
+   "retrieval": 0.01073,
+   "server_total": 3.249108
+  },
+  {
+   "run": 1,
+   "query_id": 26,
+   "category": "مباشرة",
+   "processing": 0.026297,
+   "search": 1.65412,
+   "retrieval": 0.014298,
+   "server_total": 1.694715
+  },
+  {
+   "run": 1,
+   "query_id": 27,
+   "category": "لفظ دارج",
+   "processing": 0.022373,
+   "search": 1.603731,
+   "retrieval": 0.012862,
+   "server_total": 1.638966
+  },
+  {
+   "run": 1,
+   "query_id": 28,
+   "category": "صيغة طلب",
+   "processing": 0.023785,
+   "search": 1.622368,
+   "retrieval": 0.013514,
+   "server_total": 1.659667
+  },
+  {
+   "run": 1,
+   "query_id": 29,
+   "category": "مع خاصية",
+   "processing": 0.036924,
+   "search": 2.299617,
+   "retrieval": 0.014437,
+   "server_total": 2.350978
+  },
+  {
+   "run": 1,
+   "query_id": 30,
+   "category": "تنوع كتابي",
+   "processing": 0.024297,
+   "search": 3.022877,
+   "retrieval": 0.012587,
+   "server_total": 3.059761
+  },
+  {
+   "run": 1,
+   "query_id": 31,
+   "category": "مباشرة",
+   "processing": 0.025587,
+   "search": 6.030134,
+   "retrieval": 0.01149,
+   "server_total": 6.067211
+  },
+  {
+   "run": 1,
+   "query_id": 32,
+   "category": "لفظ دارج",
+   "processing": 0.026089,
+   "search": 3.535303,
+   "retrieval": 0.009587,
+   "server_total": 3.570979
+  },
+  {
+   "run": 1,
+   "query_id": 33,
+   "category": "صيغة طلب",
+   "processing": 0.02705,
+   "search": 2.109362,
+   "retrieval": 0.009347,
+   "server_total": 2.145759
+  },
+  {
+   "run": 1,
+   "query_id": 34,
+   "category": "مع خاصية",
+   "processing": 0.027093,
+   "search": 2.864241,
+   "retrieval": 0.012916,
+   "server_total": 2.90425
+  },
+  {
+   "run": 1,
+   "query_id": 35,
+   "category": "تنوع كتابي",
+   "processing": 0.025541,
+   "search": 2.23213,
+   "retrieval": 0.010368,
+   "server_total": 2.268039
+  },
+  {
+   "run": 1,
+   "query_id": 36,
+   "category": "مباشرة",
+   "processing": 0.024325,
+   "search": 2.642093,
+   "retrieval": 0.010191,
+   "server_total": 2.676609
+  },
+  {
+   "run": 1,
+   "query_id": 37,
+   "category": "لفظ دارج",
+   "processing": 0.021265,
+   "search": 1.748427,
+   "retrieval": 0.010195,
+   "server_total": 1.779887
+  },
+  {
+   "run": 1,
+   "query_id": 38,
+   "category": "صيغة طلب",
+   "processing": 0.025363,
+   "search": 1.78791,
+   "retrieval": 0.010244,
+   "server_total": 1.823517
+  },
+  {
+   "run": 1,
+   "query_id": 39,
+   "category": "مع خاصية",
+   "processing": 0.063607,
+   "search": 3.306515,
+   "retrieval": 0.012234,
+   "server_total": 3.382356
+  },
+  {
+   "run": 1,
+   "query_id": 40,
+   "category": "تنوع كتابي",
+   "processing": 0.023843,
+   "search": 2.680067,
+   "retrieval": 0.010211,
+   "server_total": 2.714121
+  },
+  {
+   "run": 1,
+   "query_id": 41,
+   "category": "مباشرة",
+   "processing": 0.026062,
+   "search": 7.542094,
+   "retrieval": 0.011413,
+   "server_total": 7.579569
+  },
+  {
+   "run": 1,
+   "query_id": 42,
+   "category": "لفظ دارج",
+   "processing": 0.026867,
+   "search": 4.796732,
+   "retrieval": 0.010415,
+   "server_total": 4.834014
+  },
+  {
+   "run": 1,
+   "query_id": 43,
+   "category": "صيغة طلب",
+   "processing": 0.028917,
+   "search": 2.862304,
+   "retrieval": 0.009502,
+   "server_total": 2.900723
+  },
+  {
+   "run": 1,
+   "query_id": 44,
+   "category": "مع خاصية",
+   "processing": 0.027211,
+   "search": 3.622777,
+   "retrieval": 0.011742,
+   "server_total": 3.66173
+  },
+  {
+   "run": 1,
+   "query_id": 45,
+   "category": "تنوع كتابي",
+   "processing": 0.025122,
+   "search": 2.975945,
+   "retrieval": 0.00955,
+   "server_total": 3.010617
+  },
+  {
+   "run": 1,
+   "query_id": 46,
+   "category": "مباشرة",
+   "processing": 0.020992,
+   "search": 2.406396,
+   "retrieval": 0.010643,
+   "server_total": 2.438031
+  },
+  {
+   "run": 1,
+   "query_id": 47,
+   "category": "لفظ دارج",
+   "processing": 0.02377,
+   "search": 2.290737,
+   "retrieval": 0.010071,
+   "server_total": 2.324578
+  },
+  {
+   "run": 1,
+   "query_id": 48,
+   "category": "صيغة طلب",
+   "processing": 0.024371,
+   "search": 2.264646,
+   "retrieval": 0.009452,
+   "server_total": 2.298469
+  },
+  {
+   "run": 1,
+   "query_id": 49,
+   "category": "مع خاصية",
+   "processing": 0.022134,
+   "search": 2.844087,
+   "retrieval": 0.013167,
+   "server_total": 2.879388
+  },
+  {
+   "run": 1,
+   "query_id": 50,
+   "category": "تنوع كتابي",
+   "processing": 0.024808,
+   "search": 3.742651,
+   "retrieval": 0.011697,
+   "server_total": 3.779156
+  },
+  {
+   "run": 1,
+   "query_id": 51,
+   "category": "مباشرة",
+   "processing": 0.024152,
+   "search": 2.421643,
+   "retrieval": 0.00889,
+   "server_total": 2.454685
+  },
+  {
+   "run": 1,
+   "query_id": 52,
+   "category": "لفظ دارج",
+   "processing": 0.020732,
+   "search": 2.150558,
+   "retrieval": 0.007602,
+   "server_total": 2.178892
+  },
+  {
+   "run": 1,
+   "query_id": 53,
+   "category": "صيغة طلب",
+   "processing": 0.023529,
+   "search": 2.117516,
+   "retrieval": 0.007187,
+   "server_total": 2.148232
+  },
+  {
+   "run": 1,
+   "query_id": 54,
+   "category": "مع خاصية",
+   "processing": 0.02204,
+   "search": 2.584479,
+   "retrieval": 0.013033,
+   "server_total": 2.619552
+  },
+  {
+   "run": 1,
+   "query_id": 55,
+   "category": "تنوع كتابي",
+   "processing": 0.019519,
+   "search": 2.171425,
+   "retrieval": 0.007605,
+   "server_total": 2.198549
+  },
+  {
+   "run": 1,
+   "query_id": 56,
+   "category": "مباشرة",
+   "processing": 0.01922,
+   "search": 1.482285,
+   "retrieval": 0.010155,
+   "server_total": 1.51166
+  },
+  {
+   "run": 1,
+   "query_id": 57,
+   "category": "لفظ دارج",
+   "processing": 0.026896,
+   "search": 1.461357,
+   "retrieval": 0.008533,
+   "server_total": 1.496786
+  },
+  {
+   "run": 1,
+   "query_id": 58,
+   "category": "صيغة طلب",
+   "processing": 0.023868,
+   "search": 1.593279,
+   "retrieval": 0.008873,
+   "server_total": 1.62602
+  },
+  {
+   "run": 1,
+   "query_id": 59,
+   "category": "مع خاصية",
+   "processing": 0.023223,
+   "search": 2.227819,
+   "retrieval": 0.013352,
+   "server_total": 2.264394
+  },
+  {
+   "run": 1,
+   "query_id": 60,
+   "category": "تنوع كتابي",
+   "processing": 0.019255,
+   "search": 1.604916,
+   "retrieval": 0.008854,
+   "server_total": 1.633025
+  },
+  {
+   "run": 1,
+   "query_id": 61,
+   "category": "مباشرة",
+   "processing": 0.023274,
+   "search": 2.37232,
+   "retrieval": 0.013463,
+   "server_total": 2.409057
+  },
+  {
+   "run": 1,
+   "query_id": 62,
+   "category": "لفظ دارج",
+   "processing": 0.02561,
+   "search": 2.305463,
+   "retrieval": 0.012783,
+   "server_total": 2.343856
+  },
+  {
+   "run": 1,
+   "query_id": 63,
+   "category": "صيغة طلب",
+   "processing": 0.028083,
+   "search": 2.262644,
+   "retrieval": 0.011419,
+   "server_total": 2.302146
+  },
+  {
+   "run": 1,
+   "query_id": 64,
+   "category": "مع خاصية",
+   "processing": 0.025203,
+   "search": 2.833849,
+   "retrieval": 0.013237,
+   "server_total": 2.872289
+  },
+  {
+   "run": 1,
+   "query_id": 65,
+   "category": "تنوع كتابي",
+   "processing": 0.024941,
+   "search": 4.228747,
+   "retrieval": 0.012044,
+   "server_total": 4.265732
+  },
+  {
+   "run": 1,
+   "query_id": 66,
+   "category": "مباشرة",
+   "processing": 0.045451,
+   "search": 1.284988,
+   "retrieval": 0.005436,
+   "server_total": 1.335875
+  },
+  {
+   "run": 1,
+   "query_id": 67,
+   "category": "لفظ دارج",
+   "processing": 0.019208,
+   "search": 1.515087,
+   "retrieval": 0.004951,
+   "server_total": 1.539246
+  },
+  {
+   "run": 1,
+   "query_id": 68,
+   "category": "صيغة طلب",
+   "processing": 0.025453,
+   "search": 1.662376,
+   "retrieval": 0.005327,
+   "server_total": 1.693156
+  },
+  {
+   "run": 1,
+   "query_id": 69,
+   "category": "مع خاصية",
+   "processing": 0.030111,
+   "search": 2.267966,
+   "retrieval": 0.010513,
+   "server_total": 2.30859
+  },
+  {
+   "run": 1,
+   "query_id": 70,
+   "category": "تنوع كتابي",
+   "processing": 0.021187,
+   "search": 1.562464,
+   "retrieval": 0.004952,
+   "server_total": 1.588603
+  },
+  {
+   "run": 1,
+   "query_id": 71,
+   "category": "مباشرة",
+   "processing": 0.022732,
+   "search": 1.735783,
+   "retrieval": 0.015546,
+   "server_total": 1.774061
+  },
+  {
+   "run": 1,
+   "query_id": 72,
+   "category": "لفظ دارج",
+   "processing": 0.019764,
+   "search": 1.828551,
+   "retrieval": 0.014868,
+   "server_total": 1.863183
+  },
+  {
+   "run": 1,
+   "query_id": 73,
+   "category": "صيغة طلب",
+   "processing": 0.031187,
+   "search": 1.772326,
+   "retrieval": 0.013003,
+   "server_total": 1.816516
+  },
+  {
+   "run": 1,
+   "query_id": 74,
+   "category": "مع خاصية",
+   "processing": 0.026204,
+   "search": 2.417307,
+   "retrieval": 0.011836,
+   "server_total": 2.455347
+  },
+  {
+   "run": 1,
+   "query_id": 75,
+   "category": "تنوع كتابي",
+   "processing": 0.019555,
+   "search": 1.421189,
+   "retrieval": 0.011673,
+   "server_total": 1.452417
+  },
+  {
+   "run": 1,
+   "query_id": 76,
+   "category": "مباشرة",
+   "processing": 0.019086,
+   "search": 2.340716,
+   "retrieval": 0.011207,
+   "server_total": 2.371009
+  },
+  {
+   "run": 1,
+   "query_id": 77,
+   "category": "لفظ دارج",
+   "processing": 0.01876,
+   "search": 1.676426,
+   "retrieval": 0.009764,
+   "server_total": 1.70495
+  },
+  {
+   "run": 1,
+   "query_id": 78,
+   "category": "صيغة طلب",
+   "processing": 0.018981,
+   "search": 1.838435,
+   "retrieval": 0.008915,
+   "server_total": 1.866331
+  },
+  {
+   "run": 1,
+   "query_id": 79,
+   "category": "مع خاصية",
+   "processing": 0.026594,
+   "search": 3.350834,
+   "retrieval": 0.009356,
+   "server_total": 3.386784
+  },
+  {
+   "run": 1,
+   "query_id": 80,
+   "category": "تنوع كتابي",
+   "processing": 0.021969,
+   "search": 2.331517,
+   "retrieval": 0.008947,
+   "server_total": 2.362433
+  },
+  {
+   "run": 1,
+   "query_id": 81,
+   "category": "مباشرة",
+   "processing": 0.016008,
+   "search": 0.868732,
+   "retrieval": 0.006335,
+   "server_total": 0.891075
+  },
+  {
+   "run": 1,
+   "query_id": 82,
+   "category": "لفظ دارج",
+   "processing": 0.015386,
+   "search": 0.918765,
+   "retrieval": 0.006277,
+   "server_total": 0.940428
+  },
+  {
+   "run": 1,
+   "query_id": 83,
+   "category": "صيغة طلب",
+   "processing": 0.01897,
+   "search": 0.791312,
+   "retrieval": 0.00594,
+   "server_total": 0.816222
+  },
+  {
+   "run": 1,
+   "query_id": 84,
+   "category": "مع خاصية",
+   "processing": 0.018856,
+   "search": 1.563995,
+   "retrieval": 0.01577,
+   "server_total": 1.598621
+  },
+  {
+   "run": 1,
+   "query_id": 85,
+   "category": "تنوع كتابي",
+   "processing": 0.01599,
+   "search": 0.875788,
+   "retrieval": 0.005636,
+   "server_total": 0.897414
+  },
+  {
+   "run": 1,
+   "query_id": 86,
+   "category": "مباشرة",
+   "processing": 0.019258,
+   "search": 1.647788,
+   "retrieval": 0.005839,
+   "server_total": 1.672885
+  },
+  {
+   "run": 1,
+   "query_id": 87,
+   "category": "لفظ دارج",
+   "processing": 0.016499,
+   "search": 1.416878,
+   "retrieval": 0.003945,
+   "server_total": 1.437322
+  },
+  {
+   "run": 1,
+   "query_id": 88,
+   "category": "صيغة طلب",
+   "processing": 0.023276,
+   "search": 1.321482,
+   "retrieval": 0.004273,
+   "server_total": 1.349031
+  },
+  {
+   "run": 1,
+   "query_id": 89,
+   "category": "مع خاصية",
+   "processing": 0.022038,
+   "search": 2.069851,
+   "retrieval": 0.015297,
+   "server_total": 2.107186
+  },
+  {
+   "run": 1,
+   "query_id": 90,
+   "category": "تنوع كتابي",
+   "processing": 0.017777,
+   "search": 1.324465,
+   "retrieval": 0.004068,
+   "server_total": 1.34631
+  },
+  {
+   "run": 1,
+   "query_id": 91,
+   "category": "مباشرة",
+   "processing": 0.018162,
+   "search": 1.222987,
+   "retrieval": 0.011316,
+   "server_total": 1.252465
+  },
+  {
+   "run": 1,
+   "query_id": 92,
+   "category": "لفظ دارج",
+   "processing": 0.017069,
+   "search": 1.124597,
+   "retrieval": 0.010233,
+   "server_total": 1.151899
+  },
+  {
+   "run": 1,
+   "query_id": 93,
+   "category": "صيغة طلب",
+   "processing": 0.022414,
+   "search": 1.180314,
+   "retrieval": 0.009537,
+   "server_total": 1.212265
+  },
+  {
+   "run": 1,
+   "query_id": 94,
+   "category": "مع خاصية",
+   "processing": 0.020753,
+   "search": 1.812728,
+   "retrieval": 0.011324,
+   "server_total": 1.844805
+  },
+  {
+   "run": 1,
+   "query_id": 95,
+   "category": "تنوع كتابي",
+   "processing": 0.019648,
+   "search": 1.168463,
+   "retrieval": 0.009152,
+   "server_total": 1.197263
+  },
+  {
+   "run": 1,
+   "query_id": 96,
+   "category": "مباشرة",
+   "processing": 0.01791,
+   "search": 1.265289,
+   "retrieval": 0.004593,
+   "server_total": 1.287792
+  },
+  {
+   "run": 1,
+   "query_id": 97,
+   "category": "لفظ دارج",
+   "processing": 0.01596,
+   "search": 1.292271,
+   "retrieval": 0.00374,
+   "server_total": 1.311971
+  },
+  {
+   "run": 1,
+   "query_id": 98,
+   "category": "صيغة طلب",
+   "processing": 0.019967,
+   "search": 1.178263,
+   "retrieval": 0.003855,
+   "server_total": 1.202085
+  },
+  {
+   "run": 1,
+   "query_id": 99,
+   "category": "مع خاصية",
+   "processing": 0.020269,
+   "search": 1.77411,
+   "retrieval": 0.013609,
+   "server_total": 1.807988
+  },
+  {
+   "run": 1,
+   "query_id": 100,
+   "category": "تنوع كتابي",
+   "processing": 0.017602,
+   "search": 1.357789,
+   "retrieval": 0.003953,
+   "server_total": 1.379344
+  },
+  {
+   "run": 2,
+   "query_id": 1,
+   "category": "مباشرة",
+   "processing": 0.019299,
+   "search": 2.048129,
+   "retrieval": 0.011472,
+   "server_total": 2.0789
+  },
+  {
+   "run": 2,
+   "query_id": 2,
+   "category": "لفظ دارج",
+   "processing": 0.018105,
+   "search": 1.436664,
+   "retrieval": 0.010971,
+   "server_total": 1.46574
+  },
+  {
+   "run": 2,
+   "query_id": 3,
+   "category": "صيغة طلب",
+   "processing": 0.022586,
+   "search": 1.418986,
+   "retrieval": 0.010963,
+   "server_total": 1.452535
+  },
+  {
+   "run": 2,
+   "query_id": 4,
+   "category": "مع خاصية",
+   "processing": 0.021129,
+   "search": 2.692079,
+   "retrieval": 0.011562,
+   "server_total": 2.72477
+  },
+  {
+   "run": 2,
+   "query_id": 5,
+   "category": "تنوع كتابي",
+   "processing": 0.02048,
+   "search": 2.113813,
+   "retrieval": 0.01104,
+   "server_total": 2.145333
+  },
+  {
+   "run": 2,
+   "query_id": 6,
+   "category": "مباشرة",
+   "processing": 0.020603,
+   "search": 2.126164,
+   "retrieval": 0.010974,
+   "server_total": 2.157741
+  },
+  {
+   "run": 2,
+   "query_id": 7,
+   "category": "لفظ دارج",
+   "processing": 0.019241,
+   "search": 1.489436,
+   "retrieval": 0.011482,
+   "server_total": 1.520159
+  },
+  {
+   "run": 2,
+   "query_id": 8,
+   "category": "صيغة طلب",
+   "processing": 0.023798,
+   "search": 1.350542,
+   "retrieval": 0.010901,
+   "server_total": 1.385241
+  },
+  {
+   "run": 2,
+   "query_id": 9,
+   "category": "مع خاصية",
+   "processing": 0.023159,
+   "search": 2.711725,
+   "retrieval": 0.01219,
+   "server_total": 2.747074
+  },
+  {
+   "run": 2,
+   "query_id": 10,
+   "category": "تنوع كتابي",
+   "processing": 0.02267,
+   "search": 2.026983,
+   "retrieval": 0.011108,
+   "server_total": 2.060761
+  },
+  {
+   "run": 2,
+   "query_id": 11,
+   "category": "مباشرة",
+   "processing": 0.01883,
+   "search": 1.336205,
+   "retrieval": 0.011321,
+   "server_total": 1.366356
+  },
+  {
+   "run": 2,
+   "query_id": 12,
+   "category": "لفظ دارج",
+   "processing": 0.018129,
+   "search": 1.41945,
+   "retrieval": 0.04711,
+   "server_total": 1.484689
+  },
+  {
+   "run": 2,
+   "query_id": 13,
+   "category": "صيغة طلب",
+   "processing": 0.021007,
+   "search": 1.419566,
+   "retrieval": 0.010574,
+   "server_total": 1.451147
+  },
+  {
+   "run": 2,
+   "query_id": 14,
+   "category": "مع خاصية",
+   "processing": 0.019936,
+   "search": 2.95267,
+   "retrieval": 0.017339,
+   "server_total": 2.989945
+  },
+  {
+   "run": 2,
+   "query_id": 15,
+   "category": "تنوع كتابي",
+   "processing": 0.028539,
+   "search": 1.893798,
+   "retrieval": 0.012357,
+   "server_total": 1.934694
+  },
+  {
+   "run": 2,
+   "query_id": 16,
+   "category": "مباشرة",
+   "processing": 0.022156,
+   "search": 1.438898,
+   "retrieval": 0.011162,
+   "server_total": 1.472216
+  },
+  {
+   "run": 2,
+   "query_id": 17,
+   "category": "لفظ دارج",
+   "processing": 0.019737,
+   "search": 1.435241,
+   "retrieval": 0.010142,
+   "server_total": 1.46512
+  },
+  {
+   "run": 2,
+   "query_id": 18,
+   "category": "صيغة طلب",
+   "processing": 0.021092,
+   "search": 1.359899,
+   "retrieval": 0.010329,
+   "server_total": 1.39132
+  },
+  {
+   "run": 2,
+   "query_id": 19,
+   "category": "مع خاصية",
+   "processing": 0.019655,
+   "search": 1.893626,
+   "retrieval": 0.04114,
+   "server_total": 1.954421
+  },
+  {
+   "run": 2,
+   "query_id": 20,
+   "category": "تنوع كتابي",
+   "processing": 0.018469,
+   "search": 1.406915,
+   "retrieval": 0.010472,
+   "server_total": 1.435856
+  },
+  {
+   "run": 2,
+   "query_id": 21,
+   "category": "مباشرة",
+   "processing": 0.01726,
+   "search": 1.233099,
+   "retrieval": 0.008215,
+   "server_total": 1.258574
+  },
+  {
+   "run": 2,
+   "query_id": 22,
+   "category": "لفظ دارج",
+   "processing": 0.018321,
+   "search": 1.077428,
+   "retrieval": 0.008142,
+   "server_total": 1.103891
+  },
+  {
+   "run": 2,
+   "query_id": 23,
+   "category": "صيغة طلب",
+   "processing": 0.052434,
+   "search": 1.428923,
+   "retrieval": 0.009147,
+   "server_total": 1.490504
+  },
+  {
+   "run": 2,
+   "query_id": 24,
+   "category": "مع خاصية",
+   "processing": 0.02078,
+   "search": 2.224724,
+   "retrieval": 0.019669,
+   "server_total": 2.265173
+  },
+  {
+   "run": 2,
+   "query_id": 25,
+   "category": "تنوع كتابي",
+   "processing": 0.026701,
+   "search": 3.269042,
+   "retrieval": 0.012665,
+   "server_total": 3.308408
+  },
+  {
+   "run": 2,
+   "query_id": 26,
+   "category": "مباشرة",
+   "processing": 0.028781,
+   "search": 1.568958,
+   "retrieval": 0.012999,
+   "server_total": 1.610738
+  },
+  {
+   "run": 2,
+   "query_id": 27,
+   "category": "لفظ دارج",
+   "processing": 0.021761,
+   "search": 1.695174,
+   "retrieval": 0.011925,
+   "server_total": 1.72886
+  },
+  {
+   "run": 2,
+   "query_id": 28,
+   "category": "صيغة طلب",
+   "processing": 0.025089,
+   "search": 1.737795,
+   "retrieval": 0.027592,
+   "server_total": 1.790476
+  },
+  {
+   "run": 2,
+   "query_id": 29,
+   "category": "مع خاصية",
+   "processing": 0.03155,
+   "search": 2.099747,
+   "retrieval": 0.011618,
+   "server_total": 2.142915
+  },
+  {
+   "run": 2,
+   "query_id": 30,
+   "category": "تنوع كتابي",
+   "processing": 0.020444,
+   "search": 2.615061,
+   "retrieval": 0.010874,
+   "server_total": 2.646379
+  },
+  {
+   "run": 2,
+   "query_id": 31,
+   "category": "مباشرة",
+   "processing": 0.021493,
+   "search": 2.212899,
+   "retrieval": 0.008646,
+   "server_total": 2.243038
+  },
+  {
+   "run": 2,
+   "query_id": 32,
+   "category": "لفظ دارج",
+   "processing": 0.020418,
+   "search": 1.487212,
+   "retrieval": 0.008312,
+   "server_total": 1.515942
+  },
+  {
+   "run": 2,
+   "query_id": 33,
+   "category": "صيغة طلب",
+   "processing": 0.020983,
+   "search": 1.706158,
+   "retrieval": 0.009248,
+   "server_total": 1.736389
+  },
+  {
+   "run": 2,
+   "query_id": 34,
+   "category": "مع خاصية",
+   "processing": 0.047299,
+   "search": 3.306128,
+   "retrieval": 0.01169,
+   "server_total": 3.365117
+  },
+  {
+   "run": 2,
+   "query_id": 35,
+   "category": "تنوع كتابي",
+   "processing": 0.02113,
+   "search": 2.607569,
+   "retrieval": 0.010788,
+   "server_total": 2.639487
+  },
+  {
+   "run": 2,
+   "query_id": 36,
+   "category": "مباشرة",
+   "processing": 0.04535,
+   "search": 2.435926,
+   "retrieval": 0.009204,
+   "server_total": 2.49048
+  },
+  {
+   "run": 2,
+   "query_id": 37,
+   "category": "لفظ دارج",
+   "processing": 0.11752,
+   "search": 1.684665,
+   "retrieval": 0.008932,
+   "server_total": 1.811117
+  },
+  {
+   "run": 2,
+   "query_id": 38,
+   "category": "صيغة طلب",
+   "processing": 0.020915,
+   "search": 1.499855,
+   "retrieval": 0.008479,
+   "server_total": 1.529249
+  },
+  {
+   "run": 2,
+   "query_id": 39,
+   "category": "مع خاصية",
+   "processing": 0.019253,
+   "search": 2.860344,
+   "retrieval": 0.010459,
+   "server_total": 2.890056
+  },
+  {
+   "run": 2,
+   "query_id": 40,
+   "category": "تنوع كتابي",
+   "processing": 0.018556,
+   "search": 2.372797,
+   "retrieval": 0.008728,
+   "server_total": 2.400081
+  },
+  {
+   "run": 2,
+   "query_id": 41,
+   "category": "مباشرة",
+   "processing": 0.019994,
+   "search": 2.692869,
+   "retrieval": 0.009288,
+   "server_total": 2.722151
+  },
+  {
+   "run": 2,
+   "query_id": 42,
+   "category": "لفظ دارج",
+   "processing": 0.019181,
+   "search": 3.013892,
+   "retrieval": 0.010383,
+   "server_total": 3.043456
+  },
+  {
+   "run": 2,
+   "query_id": 43,
+   "category": "صيغة طلب",
+   "processing": 0.032614,
+   "search": 2.903864,
+   "retrieval": 0.009373,
+   "server_total": 2.945851
+  },
+  {
+   "run": 2,
+   "query_id": 44,
+   "category": "مع خاصية",
+   "processing": 0.021589,
+   "search": 3.641351,
+   "retrieval": 0.011507,
+   "server_total": 3.674447
+  },
+  {
+   "run": 2,
+   "query_id": 45,
+   "category": "تنوع كتابي",
+   "processing": 0.022554,
+   "search": 2.920091,
+   "retrieval": 0.010542,
+   "server_total": 2.953187
+  },
+  {
+   "run": 2,
+   "query_id": 46,
+   "category": "مباشرة",
+   "processing": 0.021232,
+   "search": 2.656363,
+   "retrieval": 0.010257,
+   "server_total": 2.687852
+  },
+  {
+   "run": 2,
+   "query_id": 47,
+   "category": "لفظ دارج",
+   "processing": 0.019313,
+   "search": 2.462167,
+   "retrieval": 0.009927,
+   "server_total": 2.491407
+  },
+  {
+   "run": 2,
+   "query_id": 48,
+   "category": "صيغة طلب",
+   "processing": 0.023158,
+   "search": 2.486654,
+   "retrieval": 0.010369,
+   "server_total": 2.520181
+  },
+  {
+   "run": 2,
+   "query_id": 49,
+   "category": "مع خاصية",
+   "processing": 0.020981,
+   "search": 3.967134,
+   "retrieval": 0.014792,
+   "server_total": 4.002907
+  },
+  {
+   "run": 2,
+   "query_id": 50,
+   "category": "تنوع كتابي",
+   "processing": 0.026135,
+   "search": 5.481937,
+   "retrieval": 0.018201,
+   "server_total": 5.526273
+  },
+  {
+   "run": 2,
+   "query_id": 51,
+   "category": "مباشرة",
+   "processing": 0.033516,
+   "search": 3.287841,
+   "retrieval": 0.01062,
+   "server_total": 3.331977
+  },
+  {
+   "run": 2,
+   "query_id": 52,
+   "category": "لفظ دارج",
+   "processing": 0.024826,
+   "search": 3.257348,
+   "retrieval": 0.010085,
+   "server_total": 3.292259
+  },
+  {
+   "run": 2,
+   "query_id": 53,
+   "category": "صيغة طلب",
+   "processing": 0.027798,
+   "search": 3.262954,
+   "retrieval": 0.012647,
+   "server_total": 3.303399
+  },
+  {
+   "run": 2,
+   "query_id": 54,
+   "category": "مع خاصية",
+   "processing": 0.035813,
+   "search": 4.250258,
+   "retrieval": 0.059846,
+   "server_total": 4.345917
+  },
+  {
+   "run": 2,
+   "query_id": 55,
+   "category": "تنوع كتابي",
+   "processing": 0.042153,
+   "search": 3.811671,
+   "retrieval": 0.016433,
+   "server_total": 3.870257
+  },
+  {
+   "run": 2,
+   "query_id": 56,
+   "category": "مباشرة",
+   "processing": 0.053963,
+   "search": 2.186177,
+   "retrieval": 0.018744,
+   "server_total": 2.258884
+  },
+  {
+   "run": 2,
+   "query_id": 57,
+   "category": "لفظ دارج",
+   "processing": 0.042162,
+   "search": 2.259199,
+   "retrieval": 0.021432,
+   "server_total": 2.322793
+  },
+  {
+   "run": 2,
+   "query_id": 58,
+   "category": "صيغة طلب",
+   "processing": 0.055009,
+   "search": 1.938962,
+   "retrieval": 0.012222,
+   "server_total": 2.006193
+  },
+  {
+   "run": 2,
+   "query_id": 59,
+   "category": "مع خاصية",
+   "processing": 0.026139,
+   "search": 3.267233,
+   "retrieval": 0.0207,
+   "server_total": 3.314072
+  },
+  {
+   "run": 2,
+   "query_id": 60,
+   "category": "تنوع كتابي",
+   "processing": 0.02406,
+   "search": 1.773387,
+   "retrieval": 0.01069,
+   "server_total": 1.808137
+  },
+  {
+   "run": 2,
+   "query_id": 61,
+   "category": "مباشرة",
+   "processing": 0.030475,
+   "search": 2.519568,
+   "retrieval": 0.017328,
+   "server_total": 2.567371
+  },
+  {
+   "run": 2,
+   "query_id": 62,
+   "category": "لفظ دارج",
+   "processing": 0.023879,
+   "search": 2.191672,
+   "retrieval": 0.019519,
+   "server_total": 2.23507
+  },
+  {
+   "run": 2,
+   "query_id": 63,
+   "category": "صيغة طلب",
+   "processing": 0.0259,
+   "search": 2.356853,
+   "retrieval": 0.012527,
+   "server_total": 2.39528
+  },
+  {
+   "run": 2,
+   "query_id": 64,
+   "category": "مع خاصية",
+   "processing": 0.022859,
+   "search": 3.051314,
+   "retrieval": 0.015426,
+   "server_total": 3.089599
+  },
+  {
+   "run": 2,
+   "query_id": 65,
+   "category": "تنوع كتابي",
+   "processing": 0.021821,
+   "search": 4.62727,
+   "retrieval": 0.012295,
+   "server_total": 4.661386
+  },
+  {
+   "run": 2,
+   "query_id": 66,
+   "category": "مباشرة",
+   "processing": 0.02195,
+   "search": 1.611815,
+   "retrieval": 0.005627,
+   "server_total": 1.639392
+  },
+  {
+   "run": 2,
+   "query_id": 67,
+   "category": "لفظ دارج",
+   "processing": 0.019092,
+   "search": 1.720882,
+   "retrieval": 0.004598,
+   "server_total": 1.744572
+  },
+  {
+   "run": 2,
+   "query_id": 68,
+   "category": "صيغة طلب",
+   "processing": 0.019614,
+   "search": 1.706625,
+   "retrieval": 0.004022,
+   "server_total": 1.730261
+  },
+  {
+   "run": 2,
+   "query_id": 69,
+   "category": "مع خاصية",
+   "processing": 0.020689,
+   "search": 2.366553,
+   "retrieval": 0.015026,
+   "server_total": 2.402268
+  },
+  {
+   "run": 2,
+   "query_id": 70,
+   "category": "تنوع كتابي",
+   "processing": 0.018393,
+   "search": 1.436786,
+   "retrieval": 0.003998,
+   "server_total": 1.459177
+  },
+  {
+   "run": 2,
+   "query_id": 71,
+   "category": "مباشرة",
+   "processing": 0.017241,
+   "search": 1.867618,
+   "retrieval": 0.01867,
+   "server_total": 1.903529
+  },
+  {
+   "run": 2,
+   "query_id": 72,
+   "category": "لفظ دارج",
+   "processing": 0.01848,
+   "search": 1.99625,
+   "retrieval": 0.01991,
+   "server_total": 2.03464
+  },
+  {
+   "run": 2,
+   "query_id": 73,
+   "category": "صيغة طلب",
+   "processing": 0.024254,
+   "search": 2.005002,
+   "retrieval": 0.014197,
+   "server_total": 2.043453
+  },
+  {
+   "run": 2,
+   "query_id": 74,
+   "category": "مع خاصية",
+   "processing": 0.022148,
+   "search": 2.464093,
+   "retrieval": 0.014055,
+   "server_total": 2.500296
+  },
+  {
+   "run": 2,
+   "query_id": 75,
+   "category": "تنوع كتابي",
+   "processing": 0.01862,
+   "search": 1.767954,
+   "retrieval": 0.023554,
+   "server_total": 1.810128
+  },
+  {
+   "run": 2,
+   "query_id": 76,
+   "category": "مباشرة",
+   "processing": 0.019604,
+   "search": 2.789305,
+   "retrieval": 0.013615,
+   "server_total": 2.822524
+  },
+  {
+   "run": 2,
+   "query_id": 77,
+   "category": "لفظ دارج",
+   "processing": 0.019216,
+   "search": 2.03618,
+   "retrieval": 0.011555,
+   "server_total": 2.066951
+  },
+  {
+   "run": 2,
+   "query_id": 78,
+   "category": "صيغة طلب",
+   "processing": 0.019795,
+   "search": 2.08519,
+   "retrieval": 0.009188,
+   "server_total": 2.114173
+  },
+  {
+   "run": 2,
+   "query_id": 79,
+   "category": "مع خاصية",
+   "processing": 0.025617,
+   "search": 3.8628,
+   "retrieval": 0.009111,
+   "server_total": 3.897528
+  },
+  {
+   "run": 2,
+   "query_id": 80,
+   "category": "تنوع كتابي",
+   "processing": 0.019804,
+   "search": 2.748169,
+   "retrieval": 0.009702,
+   "server_total": 2.777675
+  },
+  {
+   "run": 2,
+   "query_id": 81,
+   "category": "مباشرة",
+   "processing": 0.016967,
+   "search": 0.961681,
+   "retrieval": 0.007769,
+   "server_total": 0.986417
+  },
+  {
+   "run": 2,
+   "query_id": 82,
+   "category": "لفظ دارج",
+   "processing": 0.014339,
+   "search": 0.824351,
+   "retrieval": 0.006752,
+   "server_total": 0.845442
+  },
+  {
+   "run": 2,
+   "query_id": 83,
+   "category": "صيغة طلب",
+   "processing": 0.017195,
+   "search": 0.882825,
+   "retrieval": 0.005514,
+   "server_total": 0.905534
+  },
+  {
+   "run": 2,
+   "query_id": 84,
+   "category": "مع خاصية",
+   "processing": 0.018353,
+   "search": 1.554857,
+   "retrieval": 0.020106,
+   "server_total": 1.593316
+  },
+  {
+   "run": 2,
+   "query_id": 85,
+   "category": "تنوع كتابي",
+   "processing": 0.034466,
+   "search": 0.996767,
+   "retrieval": 0.005975,
+   "server_total": 1.037208
+  },
+  {
+   "run": 2,
+   "query_id": 86,
+   "category": "مباشرة",
+   "processing": 0.018191,
+   "search": 1.705874,
+   "retrieval": 0.006177,
+   "server_total": 1.730242
+  },
+  {
+   "run": 2,
+   "query_id": 87,
+   "category": "لفظ دارج",
+   "processing": 0.016581,
+   "search": 1.606806,
+   "retrieval": 0.004775,
+   "server_total": 1.628162
+  },
+  {
+   "run": 2,
+   "query_id": 88,
+   "category": "صيغة طلب",
+   "processing": 0.021239,
+   "search": 1.542338,
+   "retrieval": 0.004544,
+   "server_total": 1.568121
+  },
+  {
+   "run": 2,
+   "query_id": 89,
+   "category": "مع خاصية",
+   "processing": 0.020153,
+   "search": 2.295619,
+   "retrieval": 0.018133,
+   "server_total": 2.333905
+  },
+  {
+   "run": 2,
+   "query_id": 90,
+   "category": "تنوع كتابي",
+   "processing": 0.017533,
+   "search": 1.503862,
+   "retrieval": 0.004574,
+   "server_total": 1.525969
+  },
+  {
+   "run": 2,
+   "query_id": 91,
+   "category": "مباشرة",
+   "processing": 0.019226,
+   "search": 1.343933,
+   "retrieval": 0.012779,
+   "server_total": 1.375938
+  },
+  {
+   "run": 2,
+   "query_id": 92,
+   "category": "لفظ دارج",
+   "processing": 0.017012,
+   "search": 1.396601,
+   "retrieval": 0.011687,
+   "server_total": 1.4253
+  },
+  {
+   "run": 2,
+   "query_id": 93,
+   "category": "صيغة طلب",
+   "processing": 0.019967,
+   "search": 1.503266,
+   "retrieval": 0.008886,
+   "server_total": 1.532119
+  },
+  {
+   "run": 2,
+   "query_id": 94,
+   "category": "مع خاصية",
+   "processing": 0.020062,
+   "search": 2.089182,
+   "retrieval": 0.024997,
+   "server_total": 2.134241
+  },
+  {
+   "run": 2,
+   "query_id": 95,
+   "category": "تنوع كتابي",
+   "processing": 0.017983,
+   "search": 1.467204,
+   "retrieval": 0.009593,
+   "server_total": 1.49478
+  },
+  {
+   "run": 2,
+   "query_id": 96,
+   "category": "مباشرة",
+   "processing": 0.018788,
+   "search": 1.588624,
+   "retrieval": 0.006236,
+   "server_total": 1.613648
+  },
+  {
+   "run": 2,
+   "query_id": 97,
+   "category": "لفظ دارج",
+   "processing": 0.018545,
+   "search": 1.582168,
+   "retrieval": 0.002992,
+   "server_total": 1.603705
+  },
+  {
+   "run": 2,
+   "query_id": 98,
+   "category": "صيغة طلب",
+   "processing": 0.022655,
+   "search": 1.38921,
+   "retrieval": 0.002137,
+   "server_total": 1.414002
+  },
+  {
+   "run": 2,
+   "query_id": 99,
+   "category": "مع خاصية",
+   "processing": 0.020493,
+   "search": 2.088516,
+   "retrieval": 0.008494,
+   "server_total": 2.117503
+  },
+  {
+   "run": 2,
+   "query_id": 100,
+   "category": "تنوع كتابي",
+   "processing": 0.017994,
+   "search": 1.586502,
+   "retrieval": 0.00211,
+   "server_total": 1.606606
+  },
+  {
+   "run": 3,
+   "query_id": 1,
+   "category": "مباشرة",
+   "processing": 0.020543,
+   "search": 2.447191,
+   "retrieval": 0.006437,
+   "server_total": 2.474171
+  },
+  {
+   "run": 3,
+   "query_id": 2,
+   "category": "لفظ دارج",
+   "processing": 0.019332,
+   "search": 1.594728,
+   "retrieval": 0.005768,
+   "server_total": 1.619828
+  },
+  {
+   "run": 3,
+   "query_id": 3,
+   "category": "صيغة طلب",
+   "processing": 0.023755,
+   "search": 1.542341,
+   "retrieval": 0.005597,
+   "server_total": 1.571693
+  },
+  {
+   "run": 3,
+   "query_id": 4,
+   "category": "مع خاصية",
+   "processing": 0.02143,
+   "search": 3.02229,
+   "retrieval": 0.005314,
+   "server_total": 3.049034
+  },
+  {
+   "run": 3,
+   "query_id": 5,
+   "category": "تنوع كتابي",
+   "processing": 0.026547,
+   "search": 2.656891,
+   "retrieval": 0.00443,
+   "server_total": 2.687868
+  },
+  {
+   "run": 3,
+   "query_id": 6,
+   "category": "مباشرة",
+   "processing": 0.021592,
+   "search": 2.708412,
+   "retrieval": 0.005989,
+   "server_total": 2.735993
+  },
+  {
+   "run": 3,
+   "query_id": 7,
+   "category": "لفظ دارج",
+   "processing": 0.026879,
+   "search": 1.512924,
+   "retrieval": 0.005306,
+   "server_total": 1.545109
+  },
+  {
+   "run": 3,
+   "query_id": 8,
+   "category": "صيغة طلب",
+   "processing": 0.023822,
+   "search": 1.546493,
+   "retrieval": 0.004918,
+   "server_total": 1.575233
+  },
+  {
+   "run": 3,
+   "query_id": 9,
+   "category": "مع خاصية",
+   "processing": 0.024679,
+   "search": 3.337482,
+   "retrieval": 0.006865,
+   "server_total": 3.369026
+  },
+  {
+   "run": 3,
+   "query_id": 10,
+   "category": "تنوع كتابي",
+   "processing": 0.026701,
+   "search": 2.445279,
+   "retrieval": 0.0049,
+   "server_total": 2.47688
+  },
+  {
+   "run": 3,
+   "query_id": 11,
+   "category": "مباشرة",
+   "processing": 0.020554,
+   "search": 1.678253,
+   "retrieval": 0.005229,
+   "server_total": 1.704036
+  },
+  {
+   "run": 3,
+   "query_id": 12,
+   "category": "لفظ دارج",
+   "processing": 0.019928,
+   "search": 1.636567,
+   "retrieval": 0.00462,
+   "server_total": 1.661115
+  },
+  {
+   "run": 3,
+   "query_id": 13,
+   "category": "صيغة طلب",
+   "processing": 0.021828,
+   "search": 1.601615,
+   "retrieval": 0.004361,
+   "server_total": 1.627804
+  },
+  {
+   "run": 3,
+   "query_id": 14,
+   "category": "مع خاصية",
+   "processing": 0.020507,
+   "search": 2.226037,
+   "retrieval": 0.004571,
+   "server_total": 2.251115
+  },
+  {
+   "run": 3,
+   "query_id": 15,
+   "category": "تنوع كتابي",
+   "processing": 0.019488,
+   "search": 1.75151,
+   "retrieval": 0.00427,
+   "server_total": 1.775268
+  },
+  {
+   "run": 3,
+   "query_id": 16,
+   "category": "مباشرة",
+   "processing": 0.01808,
+   "search": 1.703967,
+   "retrieval": 0.00714,
+   "server_total": 1.729187
+  },
+  {
+   "run": 3,
+   "query_id": 17,
+   "category": "لفظ دارج",
+   "processing": 0.023724,
+   "search": 1.638616,
+   "retrieval": 0.006486,
+   "server_total": 1.668826
+  },
+  {
+   "run": 3,
+   "query_id": 18,
+   "category": "صيغة طلب",
+   "processing": 0.021994,
+   "search": 1.491528,
+   "retrieval": 0.005304,
+   "server_total": 1.518826
+  },
+  {
+   "run": 3,
+   "query_id": 19,
+   "category": "مع خاصية",
+   "processing": 0.020529,
+   "search": 2.349571,
+   "retrieval": 0.004365,
+   "server_total": 2.374465
+  },
+  {
+   "run": 3,
+   "query_id": 20,
+   "category": "تنوع كتابي",
+   "processing": 0.019525,
+   "search": 1.825646,
+   "retrieval": 0.004987,
+   "server_total": 1.850158
+  },
+  {
+   "run": 3,
+   "query_id": 21,
+   "category": "مباشرة",
+   "processing": 0.020886,
+   "search": 1.574809,
+   "retrieval": 0.003987,
+   "server_total": 1.599682
+  },
+  {
+   "run": 3,
+   "query_id": 22,
+   "category": "لفظ دارج",
+   "processing": 0.018677,
+   "search": 1.339545,
+   "retrieval": 0.00395,
+   "server_total": 1.362172
+  },
+  {
+   "run": 3,
+   "query_id": 23,
+   "category": "صيغة طلب",
+   "processing": 0.020787,
+   "search": 1.41318,
+   "retrieval": 0.003395,
+   "server_total": 1.437362
+  },
+  {
+   "run": 3,
+   "query_id": 24,
+   "category": "مع خاصية",
+   "processing": 0.019325,
+   "search": 2.080474,
+   "retrieval": 0.007049,
+   "server_total": 2.106848
+  },
+  {
+   "run": 3,
+   "query_id": 25,
+   "category": "تنوع كتابي",
+   "processing": 0.018643,
+   "search": 2.958003,
+   "retrieval": 0.004243,
+   "server_total": 2.980889
+  },
+  {
+   "run": 3,
+   "query_id": 26,
+   "category": "مباشرة",
+   "processing": 0.020186,
+   "search": 1.586554,
+   "retrieval": 0.004766,
+   "server_total": 1.611506
+  },
+  {
+   "run": 3,
+   "query_id": 27,
+   "category": "لفظ دارج",
+   "processing": 0.019465,
+   "search": 1.669803,
+   "retrieval": 0.004121,
+   "server_total": 1.693389
+  },
+  {
+   "run": 3,
+   "query_id": 28,
+   "category": "صيغة طلب",
+   "processing": 0.020443,
+   "search": 1.770225,
+   "retrieval": 0.004149,
+   "server_total": 1.794817
+  },
+  {
+   "run": 3,
+   "query_id": 29,
+   "category": "مع خاصية",
+   "processing": 0.02202,
+   "search": 2.430462,
+   "retrieval": 0.004985,
+   "server_total": 2.457467
+  },
+  {
+   "run": 3,
+   "query_id": 30,
+   "category": "تنوع كتابي",
+   "processing": 0.01951,
+   "search": 2.949252,
+   "retrieval": 0.003983,
+   "server_total": 2.972745
+  },
+  {
+   "run": 3,
+   "query_id": 31,
+   "category": "مباشرة",
+   "processing": 0.022107,
+   "search": 2.581839,
+   "retrieval": 0.004668,
+   "server_total": 2.608614
+  },
+  {
+   "run": 3,
+   "query_id": 32,
+   "category": "لفظ دارج",
+   "processing": 0.021327,
+   "search": 1.654634,
+   "retrieval": 0.004234,
+   "server_total": 1.680195
+  },
+  {
+   "run": 3,
+   "query_id": 33,
+   "category": "صيغة طلب",
+   "processing": 0.021535,
+   "search": 1.799874,
+   "retrieval": 0.003409,
+   "server_total": 1.824818
+  },
+  {
+   "run": 3,
+   "query_id": 34,
+   "category": "مع خاصية",
+   "processing": 0.023481,
+   "search": 3.342257,
+   "retrieval": 0.004979,
+   "server_total": 3.370717
+  },
+  {
+   "run": 3,
+   "query_id": 35,
+   "category": "تنوع كتابي",
+   "processing": 0.021854,
+   "search": 2.451567,
+   "retrieval": 0.003527,
+   "server_total": 2.476948
+  },
+  {
+   "run": 3,
+   "query_id": 36,
+   "category": "مباشرة",
+   "processing": 0.020684,
+   "search": 2.476797,
+   "retrieval": 0.004127,
+   "server_total": 2.501608
+  },
+  {
+   "run": 3,
+   "query_id": 37,
+   "category": "لفظ دارج",
+   "processing": 0.021611,
+   "search": 1.587019,
+   "retrieval": 0.003638,
+   "server_total": 1.612268
+  },
+  {
+   "run": 3,
+   "query_id": 38,
+   "category": "صيغة طلب",
+   "processing": 0.02065,
+   "search": 1.711303,
+   "retrieval": 0.003427,
+   "server_total": 1.73538
+  },
+  {
+   "run": 3,
+   "query_id": 39,
+   "category": "مع خاصية",
+   "processing": 0.021226,
+   "search": 2.861129,
+   "retrieval": 0.004855,
+   "server_total": 2.88721
+  },
+  {
+   "run": 3,
+   "query_id": 40,
+   "category": "تنوع كتابي",
+   "processing": 0.018937,
+   "search": 2.653243,
+   "retrieval": 0.00403,
+   "server_total": 2.67621
+  },
+  {
+   "run": 3,
+   "query_id": 41,
+   "category": "مباشرة",
+   "processing": 0.022858,
+   "search": 3.199623,
+   "retrieval": 0.005417,
+   "server_total": 3.227898
+  },
+  {
+   "run": 3,
+   "query_id": 42,
+   "category": "لفظ دارج",
+   "processing": 0.020168,
+   "search": 2.880031,
+   "retrieval": 0.005252,
+   "server_total": 2.905451
+  },
+  {
+   "run": 3,
+   "query_id": 43,
+   "category": "صيغة طلب",
+   "processing": 0.022638,
+   "search": 2.876103,
+   "retrieval": 0.004163,
+   "server_total": 2.902904
+  },
+  {
+   "run": 3,
+   "query_id": 44,
+   "category": "مع خاصية",
+   "processing": 0.021159,
+   "search": 3.612345,
+   "retrieval": 0.005261,
+   "server_total": 3.638765
+  },
+  {
+   "run": 3,
+   "query_id": 45,
+   "category": "تنوع كتابي",
+   "processing": 0.021019,
+   "search": 2.834394,
+   "retrieval": 0.003911,
+   "server_total": 2.859324
+  },
+  {
+   "run": 3,
+   "query_id": 46,
+   "category": "مباشرة",
+   "processing": 0.019871,
+   "search": 2.428705,
+   "retrieval": 0.003755,
+   "server_total": 2.452331
+  },
+  {
+   "run": 3,
+   "query_id": 47,
+   "category": "لفظ دارج",
+   "processing": 0.017644,
+   "search": 2.692287,
+   "retrieval": 0.004538,
+   "server_total": 2.714469
+  },
+  {
+   "run": 3,
+   "query_id": 48,
+   "category": "صيغة طلب",
+   "processing": 0.029945,
+   "search": 2.715031,
+   "retrieval": 0.004351,
+   "server_total": 2.749327
+  },
+  {
+   "run": 3,
+   "query_id": 49,
+   "category": "مع خاصية",
+   "processing": 0.0222,
+   "search": 3.387337,
+   "retrieval": 0.005961,
+   "server_total": 3.415498
+  },
+  {
+   "run": 3,
+   "query_id": 50,
+   "category": "تنوع كتابي",
+   "processing": 0.022471,
+   "search": 3.987792,
+   "retrieval": 0.005937,
+   "server_total": 4.0162
+  },
+  {
+   "run": 3,
+   "query_id": 51,
+   "category": "مباشرة",
+   "processing": 0.025192,
+   "search": 3.998357,
+   "retrieval": 0.005494,
+   "server_total": 4.029043
+  },
+  {
+   "run": 3,
+   "query_id": 52,
+   "category": "لفظ دارج",
+   "processing": 0.05131,
+   "search": 3.811146,
+   "retrieval": 0.004998,
+   "server_total": 3.867454
+  },
+  {
+   "run": 3,
+   "query_id": 53,
+   "category": "صيغة طلب",
+   "processing": 0.027484,
+   "search": 3.510212,
+   "retrieval": 0.003695,
+   "server_total": 3.541391
+  },
+  {
+   "run": 3,
+   "query_id": 54,
+   "category": "مع خاصية",
+   "processing": 0.025264,
+   "search": 4.850572,
+   "retrieval": 0.00836,
+   "server_total": 4.884196
+  },
+  {
+   "run": 3,
+   "query_id": 55,
+   "category": "تنوع كتابي",
+   "processing": 0.028895,
+   "search": 4.740226,
+   "retrieval": 0.004433,
+   "server_total": 4.773554
+  },
+  {
+   "run": 3,
+   "query_id": 56,
+   "category": "مباشرة",
+   "processing": 0.026833,
+   "search": 3.231388,
+   "retrieval": 0.006092,
+   "server_total": 3.264313
+  },
+  {
+   "run": 3,
+   "query_id": 57,
+   "category": "لفظ دارج",
+   "processing": 0.028062,
+   "search": 2.918235,
+   "retrieval": 0.004905,
+   "server_total": 2.951202
+  },
+  {
+   "run": 3,
+   "query_id": 58,
+   "category": "صيغة طلب",
+   "processing": 0.027336,
+   "search": 2.51724,
+   "retrieval": 0.00441,
+   "server_total": 2.548986
+  },
+  {
+   "run": 3,
+   "query_id": 59,
+   "category": "مع خاصية",
+   "processing": 0.025993,
+   "search": 3.84052,
+   "retrieval": 0.007891,
+   "server_total": 3.874404
+  },
+  {
+   "run": 3,
+   "query_id": 60,
+   "category": "تنوع كتابي",
+   "processing": 0.025467,
+   "search": 2.87188,
+   "retrieval": 0.004503,
+   "server_total": 2.90185
+  },
+  {
+   "run": 3,
+   "query_id": 61,
+   "category": "مباشرة",
+   "processing": 0.025963,
+   "search": 4.313653,
+   "retrieval": 0.008346,
+   "server_total": 4.347962
+  },
+  {
+   "run": 3,
+   "query_id": 62,
+   "category": "لفظ دارج",
+   "processing": 0.035753,
+   "search": 4.419283,
+   "retrieval": 0.007378,
+   "server_total": 4.462414
+  },
+  {
+   "run": 3,
+   "query_id": 63,
+   "category": "صيغة طلب",
+   "processing": 0.035831,
+   "search": 4.623779,
+   "retrieval": 0.006118,
+   "server_total": 4.665728
+  },
+  {
+   "run": 3,
+   "query_id": 64,
+   "category": "مع خاصية",
+   "processing": 0.033,
+   "search": 5.691916,
+   "retrieval": 0.007288,
+   "server_total": 5.732204
+  },
+  {
+   "run": 3,
+   "query_id": 65,
+   "category": "تنوع كتابي",
+   "processing": 0.030826,
+   "search": 7.15324,
+   "retrieval": 0.005873,
+   "server_total": 7.189939
+  },
+  {
+   "run": 3,
+   "query_id": 66,
+   "category": "مباشرة",
+   "processing": 0.025766,
+   "search": 2.610458,
+   "retrieval": 0.002999,
+   "server_total": 2.639223
+  },
+  {
+   "run": 3,
+   "query_id": 67,
+   "category": "لفظ دارج",
+   "processing": 0.022088,
+   "search": 2.563184,
+   "retrieval": 0.002272,
+   "server_total": 2.587544
+  },
+  {
+   "run": 3,
+   "query_id": 68,
+   "category": "صيغة طلب",
+   "processing": 0.026194,
+   "search": 2.563824,
+   "retrieval": 0.002189,
+   "server_total": 2.592207
+  },
+  {
+   "run": 3,
+   "query_id": 69,
+   "category": "مع خاصية",
+   "processing": 0.024759,
+   "search": 3.136809,
+   "retrieval": 0.005939,
+   "server_total": 3.167507
+  },
+  {
+   "run": 3,
+   "query_id": 70,
+   "category": "تنوع كتابي",
+   "processing": 0.021029,
+   "search": 2.223205,
+   "retrieval": 0.002023,
+   "server_total": 2.246257
+  },
+  {
+   "run": 3,
+   "query_id": 71,
+   "category": "مباشرة",
+   "processing": 0.021015,
+   "search": 2.410011,
+   "retrieval": 0.007307,
+   "server_total": 2.438333
+  },
+  {
+   "run": 3,
+   "query_id": 72,
+   "category": "لفظ دارج",
+   "processing": 0.02073,
+   "search": 2.564792,
+   "retrieval": 0.007124,
+   "server_total": 2.592646
+  },
+  {
+   "run": 3,
+   "query_id": 73,
+   "category": "صيغة طلب",
+   "processing": 0.024545,
+   "search": 2.764995,
+   "retrieval": 0.004896,
+   "server_total": 2.794436
+  },
+  {
+   "run": 3,
+   "query_id": 74,
+   "category": "مع خاصية",
+   "processing": 0.023928,
+   "search": 3.495356,
+   "retrieval": 0.00619,
+   "server_total": 3.525474
+  },
+  {
+   "run": 3,
+   "query_id": 75,
+   "category": "تنوع كتابي",
+   "processing": 0.023647,
+   "search": 2.762923,
+   "retrieval": 0.005215,
+   "server_total": 2.791785
+  },
+  {
+   "run": 3,
+   "query_id": 76,
+   "category": "مباشرة",
+   "processing": 0.023396,
+   "search": 3.843736,
+   "retrieval": 0.004614,
+   "server_total": 3.871746
+  },
+  {
+   "run": 3,
+   "query_id": 77,
+   "category": "لفظ دارج",
+   "processing": 0.022743,
+   "search": 4.115224,
+   "retrieval": 0.006714,
+   "server_total": 4.144681
+  },
+  {
+   "run": 3,
+   "query_id": 78,
+   "category": "صيغة طلب",
+   "processing": 0.027386,
+   "search": 5.011302,
+   "retrieval": 0.004405,
+   "server_total": 5.043093
+  },
+  {
+   "run": 3,
+   "query_id": 79,
+   "category": "مع خاصية",
+   "processing": 0.029813,
+   "search": 5.764333,
+   "retrieval": 0.005017,
+   "server_total": 5.799163
+  },
+  {
+   "run": 3,
+   "query_id": 80,
+   "category": "تنوع كتابي",
+   "processing": 0.024214,
+   "search": 2.682816,
+   "retrieval": 0.003514,
+   "server_total": 2.710544
+  },
+  {
+   "run": 3,
+   "query_id": 81,
+   "category": "مباشرة",
+   "processing": 0.0179,
+   "search": 0.847563,
+   "retrieval": 0.003009,
+   "server_total": 0.868472
+  },
+  {
+   "run": 3,
+   "query_id": 82,
+   "category": "لفظ دارج",
+   "processing": 0.035642,
+   "search": 0.647517,
+   "retrieval": 0.002626,
+   "server_total": 0.685785
+  },
+  {
+   "run": 3,
+   "query_id": 83,
+   "category": "صيغة طلب",
+   "processing": 0.012845,
+   "search": 0.762571,
+   "retrieval": 0.002459,
+   "server_total": 0.777875
+  },
+  {
+   "run": 3,
+   "query_id": 84,
+   "category": "مع خاصية",
+   "processing": 0.016818,
+   "search": 1.316977,
+   "retrieval": 0.008195,
+   "server_total": 1.34199
+  },
+  {
+   "run": 3,
+   "query_id": 85,
+   "category": "تنوع كتابي",
+   "processing": 0.013638,
+   "search": 0.66865,
+   "retrieval": 0.002522,
+   "server_total": 0.68481
+  },
+  {
+   "run": 3,
+   "query_id": 86,
+   "category": "مباشرة",
+   "processing": 0.014505,
+   "search": 1.412466,
+   "retrieval": 0.003211,
+   "server_total": 1.430182
+  },
+  {
+   "run": 3,
+   "query_id": 87,
+   "category": "لفظ دارج",
+   "processing": 0.019663,
+   "search": 1.520519,
+   "retrieval": 0.002919,
+   "server_total": 1.543101
+  },
+  {
+   "run": 3,
+   "query_id": 88,
+   "category": "صيغة طلب",
+   "processing": 0.023157,
+   "search": 1.548462,
+   "retrieval": 0.002365,
+   "server_total": 1.573984
+  },
+  {
+   "run": 3,
+   "query_id": 89,
+   "category": "مع خاصية",
+   "processing": 0.020462,
+   "search": 2.095133,
+   "retrieval": 0.007721,
+   "server_total": 2.123316
+  },
+  {
+   "run": 3,
+   "query_id": 90,
+   "category": "تنوع كتابي",
+   "processing": 0.018181,
+   "search": 1.299704,
+   "retrieval": 0.002076,
+   "server_total": 1.319961
+  },
+  {
+   "run": 3,
+   "query_id": 91,
+   "category": "مباشرة",
+   "processing": 0.017413,
+   "search": 1.290906,
+   "retrieval": 0.004935,
+   "server_total": 1.313254
+  },
+  {
+   "run": 3,
+   "query_id": 92,
+   "category": "لفظ دارج",
+   "processing": 0.018531,
+   "search": 1.281885,
+   "retrieval": 0.004211,
+   "server_total": 1.304627
+  },
+  {
+   "run": 3,
+   "query_id": 93,
+   "category": "صيغة طلب",
+   "processing": 0.020205,
+   "search": 1.37955,
+   "retrieval": 0.002918,
+   "server_total": 1.402673
+  },
+  {
+   "run": 3,
+   "query_id": 94,
+   "category": "مع خاصية",
+   "processing": 0.01995,
+   "search": 2.008307,
+   "retrieval": 0.004292,
+   "server_total": 2.032549
+  },
+  {
+   "run": 3,
+   "query_id": 95,
+   "category": "تنوع كتابي",
+   "processing": 0.017972,
+   "search": 1.328011,
+   "retrieval": 0.003051,
+   "server_total": 1.349034
+  },
+  {
+   "run": 3,
+   "query_id": 96,
+   "category": "مباشرة",
+   "processing": 0.018211,
+   "search": 1.494932,
+   "retrieval": 0.002087,
+   "server_total": 1.51523
+  },
+  {
+   "run": 3,
+   "query_id": 97,
+   "category": "لفظ دارج",
+   "processing": 0.020464,
+   "search": 1.355763,
+   "retrieval": 0.001762,
+   "server_total": 1.377989
+  },
+  {
+   "run": 3,
+   "query_id": 98,
+   "category": "صيغة طلب",
+   "processing": 0.018868,
+   "search": 1.367345,
+   "retrieval": 0.001603,
+   "server_total": 1.387816
+  },
+  {
+   "run": 3,
+   "query_id": 99,
+   "category": "مع خاصية",
+   "processing": 0.018126,
+   "search": 2.182884,
+   "retrieval": 0.007055,
+   "server_total": 2.208065
+  },
+  {
+   "run": 3,
+   "query_id": 100,
+   "category": "تنوع كتابي",
+   "processing": 0.0174,
+   "search": 1.400048,
+   "retrieval": 0.001921,
+   "server_total": 1.419369
+  }
+ ],
+ "http": {
+  "summary": {
+   "runs": 3,
+   "samples": 300,
+   "http_round_trip": {
+    "mean": 3.82,
+    "median": 3.44,
+    "max": 46.4,
+    "min": 1.67,
+    "p95": 5.78
+   },
+   "server_total": {
+    "mean": 2.48,
+    "median": 2.28,
+    "max": 5.64,
+    "min": 0.73,
+    "p95": 4.08
+   },
+   "processing": {
+    "mean": 0.03,
+    "median": 0.03,
+    "max": 0.22,
+    "min": 0.02,
+    "p95": 0.04
+   },
+   "search": {
+    "mean": 2.44,
+    "median": 2.24,
+    "max": 5.56,
+    "min": 0.7,
+    "p95": 4.04
+   }
+  },
+  "samples": [
+   {
+    "run": 1,
+    "query_id": 1,
+    "category": "مباشرة",
+    "http_round_trip": 46.4,
+    "server_total": 5.639612,
+    "processing": 0.052706,
+    "search": 5.564597
+   },
+   {
+    "run": 1,
+    "query_id": 2,
+    "category": "لفظ دارج",
+    "http_round_trip": 6.43,
+    "server_total": 2.51712,
+    "processing": 0.03307,
+    "search": 2.457678
+   },
+   {
+    "run": 1,
+    "query_id": 3,
+    "category": "صيغة طلب",
+    "http_round_trip": 5.71,
+    "server_total": 3.190258,
+    "processing": 0.041608,
+    "search": 3.13257
+   },
+   {
+    "run": 1,
+    "query_id": 4,
+    "category": "مع خاصية",
+    "http_round_trip": 6.63,
+    "server_total": 4.267132,
+    "processing": 0.040697,
+    "search": 4.21387
+   },
+   {
+    "run": 1,
+    "query_id": 5,
+    "category": "تنوع كتابي",
+    "http_round_trip": 5.7,
+    "server_total": 3.190431,
+    "processing": 0.029457,
+    "search": 3.150486
+   },
+   {
+    "run": 1,
+    "query_id": 6,
+    "category": "مباشرة",
+    "http_round_trip": 4.75,
+    "server_total": 3.112545,
+    "processing": 0.070756,
+    "search": 3.03008
+   },
+   {
+    "run": 1,
+    "query_id": 7,
+    "category": "لفظ دارج",
+    "http_round_trip": 4.08,
+    "server_total": 2.103973,
+    "processing": 0.028643,
+    "search": 2.065596
+   },
+   {
+    "run": 1,
+    "query_id": 8,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.51,
+    "server_total": 2.018126,
+    "processing": 0.032962,
+    "search": 1.975538
+   },
+   {
+    "run": 1,
+    "query_id": 9,
+    "category": "مع خاصية",
+    "http_round_trip": 6.8,
+    "server_total": 3.850321,
+    "processing": 0.033171,
+    "search": 3.804074
+   },
+   {
+    "run": 1,
+    "query_id": 10,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.76,
+    "server_total": 2.949403,
+    "processing": 0.029333,
+    "search": 2.9096
+   },
+   {
+    "run": 1,
+    "query_id": 11,
+    "category": "مباشرة",
+    "http_round_trip": 3.88,
+    "server_total": 2.17955,
+    "processing": 0.026621,
+    "search": 2.142249
+   },
+   {
+    "run": 1,
+    "query_id": 12,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.91,
+    "server_total": 2.475197,
+    "processing": 0.032712,
+    "search": 2.430582
+   },
+   {
+    "run": 1,
+    "query_id": 13,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.85,
+    "server_total": 2.455528,
+    "processing": 0.03675,
+    "search": 2.407432
+   },
+   {
+    "run": 1,
+    "query_id": 14,
+    "category": "مع خاصية",
+    "http_round_trip": 4.73,
+    "server_total": 3.290747,
+    "processing": 0.034457,
+    "search": 3.24432
+   },
+   {
+    "run": 1,
+    "query_id": 15,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.14,
+    "server_total": 2.013518,
+    "processing": 0.02626,
+    "search": 1.977629
+   },
+   {
+    "run": 1,
+    "query_id": 16,
+    "category": "مباشرة",
+    "http_round_trip": 3.24,
+    "server_total": 2.035288,
+    "processing": 0.027089,
+    "search": 1.995251
+   },
+   {
+    "run": 1,
+    "query_id": 17,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.27,
+    "server_total": 2.022506,
+    "processing": 0.026785,
+    "search": 1.983356
+   },
+   {
+    "run": 1,
+    "query_id": 18,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.3,
+    "server_total": 2.179263,
+    "processing": 0.028886,
+    "search": 2.140342
+   },
+   {
+    "run": 1,
+    "query_id": 19,
+    "category": "مع خاصية",
+    "http_round_trip": 3.87,
+    "server_total": 2.674621,
+    "processing": 0.029017,
+    "search": 2.634958
+   },
+   {
+    "run": 1,
+    "query_id": 20,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.19,
+    "server_total": 1.97586,
+    "processing": 0.026143,
+    "search": 1.939795
+   },
+   {
+    "run": 1,
+    "query_id": 21,
+    "category": "مباشرة",
+    "http_round_trip": 3.24,
+    "server_total": 1.937014,
+    "processing": 0.028043,
+    "search": 1.894719
+   },
+   {
+    "run": 1,
+    "query_id": 22,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.53,
+    "server_total": 1.87814,
+    "processing": 0.027572,
+    "search": 1.839229
+   },
+   {
+    "run": 1,
+    "query_id": 23,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.83,
+    "server_total": 2.339948,
+    "processing": 0.215591,
+    "search": 2.112781
+   },
+   {
+    "run": 1,
+    "query_id": 24,
+    "category": "مع خاصية",
+    "http_round_trip": 3.69,
+    "server_total": 2.587394,
+    "processing": 0.028602,
+    "search": 2.547358
+   },
+   {
+    "run": 1,
+    "query_id": 25,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.55,
+    "server_total": 3.393809,
+    "processing": 0.026395,
+    "search": 3.357011
+   },
+   {
+    "run": 1,
+    "query_id": 26,
+    "category": "مباشرة",
+    "http_round_trip": 3.22,
+    "server_total": 2.081418,
+    "processing": 0.026437,
+    "search": 2.04458
+   },
+   {
+    "run": 1,
+    "query_id": 27,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.21,
+    "server_total": 2.06662,
+    "processing": 0.026945,
+    "search": 2.029497
+   },
+   {
+    "run": 1,
+    "query_id": 28,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.3,
+    "server_total": 2.164523,
+    "processing": 0.028349,
+    "search": 2.12616
+   },
+   {
+    "run": 1,
+    "query_id": 29,
+    "category": "مع خاصية",
+    "http_round_trip": 5.19,
+    "server_total": 3.918387,
+    "processing": 0.032902,
+    "search": 3.872216
+   },
+   {
+    "run": 1,
+    "query_id": 30,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.88,
+    "server_total": 3.711659,
+    "processing": 0.05024,
+    "search": 3.651359
+   },
+   {
+    "run": 1,
+    "query_id": 31,
+    "category": "مباشرة",
+    "http_round_trip": 4.64,
+    "server_total": 3.431517,
+    "processing": 0.034976,
+    "search": 3.383608
+   },
+   {
+    "run": 1,
+    "query_id": 32,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.73,
+    "server_total": 2.583856,
+    "processing": 0.027676,
+    "search": 2.54419
+   },
+   {
+    "run": 1,
+    "query_id": 33,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.58,
+    "server_total": 2.279691,
+    "processing": 0.030974,
+    "search": 2.238287
+   },
+   {
+    "run": 1,
+    "query_id": 34,
+    "category": "مع خاصية",
+    "http_round_trip": 5.21,
+    "server_total": 4.007142,
+    "processing": 0.031888,
+    "search": 3.964422
+   },
+   {
+    "run": 1,
+    "query_id": 35,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.25,
+    "server_total": 3.053449,
+    "processing": 0.029117,
+    "search": 3.014463
+   },
+   {
+    "run": 1,
+    "query_id": 36,
+    "category": "مباشرة",
+    "http_round_trip": 4.72,
+    "server_total": 3.544906,
+    "processing": 0.191469,
+    "search": 3.34307
+   },
+   {
+    "run": 1,
+    "query_id": 37,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.89,
+    "server_total": 2.586145,
+    "processing": 0.027129,
+    "search": 2.544822
+   },
+   {
+    "run": 1,
+    "query_id": 38,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.68,
+    "server_total": 2.27983,
+    "processing": 0.029753,
+    "search": 2.240424
+   },
+   {
+    "run": 1,
+    "query_id": 39,
+    "category": "مع خاصية",
+    "http_round_trip": 5.24,
+    "server_total": 4.014604,
+    "processing": 0.028914,
+    "search": 3.974637
+   },
+   {
+    "run": 1,
+    "query_id": 40,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.66,
+    "server_total": 3.366668,
+    "processing": 0.028623,
+    "search": 3.289511
+   },
+   {
+    "run": 1,
+    "query_id": 41,
+    "category": "مباشرة",
+    "http_round_trip": 5.41,
+    "server_total": 4.083008,
+    "processing": 0.030508,
+    "search": 4.038035
+   },
+   {
+    "run": 1,
+    "query_id": 42,
+    "category": "لفظ دارج",
+    "http_round_trip": 5.13,
+    "server_total": 3.982052,
+    "processing": 0.029775,
+    "search": 3.940514
+   },
+   {
+    "run": 1,
+    "query_id": 43,
+    "category": "صيغة طلب",
+    "http_round_trip": 5.03,
+    "server_total": 3.883108,
+    "processing": 0.035802,
+    "search": 3.836762
+   },
+   {
+    "run": 1,
+    "query_id": 44,
+    "category": "مع خاصية",
+    "http_round_trip": 6.12,
+    "server_total": 4.93839,
+    "processing": 0.031102,
+    "search": 4.896577
+   },
+   {
+    "run": 1,
+    "query_id": 45,
+    "category": "تنوع كتابي",
+    "http_round_trip": 5.08,
+    "server_total": 3.991014,
+    "processing": 0.031282,
+    "search": 3.948975
+   },
+   {
+    "run": 1,
+    "query_id": 46,
+    "category": "مباشرة",
+    "http_round_trip": 5.45,
+    "server_total": 4.207013,
+    "processing": 0.028081,
+    "search": 4.168093
+   },
+   {
+    "run": 1,
+    "query_id": 47,
+    "category": "لفظ دارج",
+    "http_round_trip": 4.4,
+    "server_total": 3.359789,
+    "processing": 0.030786,
+    "search": 3.318189
+   },
+   {
+    "run": 1,
+    "query_id": 48,
+    "category": "صيغة طلب",
+    "http_round_trip": 4.2,
+    "server_total": 3.156787,
+    "processing": 0.029788,
+    "search": 3.116503
+   },
+   {
+    "run": 1,
+    "query_id": 49,
+    "category": "مع خاصية",
+    "http_round_trip": 4.96,
+    "server_total": 3.874432,
+    "processing": 0.02792,
+    "search": 3.835788
+   },
+   {
+    "run": 1,
+    "query_id": 50,
+    "category": "تنوع كتابي",
+    "http_round_trip": 6.04,
+    "server_total": 4.867462,
+    "processing": 0.028433,
+    "search": 4.827907
+   },
+   {
+    "run": 1,
+    "query_id": 51,
+    "category": "مباشرة",
+    "http_round_trip": 4,
+    "server_total": 2.773055,
+    "processing": 0.025921,
+    "search": 2.736142
+   },
+   {
+    "run": 1,
+    "query_id": 52,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.77,
+    "server_total": 2.639276,
+    "processing": 0.025895,
+    "search": 2.581803
+   },
+   {
+    "run": 1,
+    "query_id": 53,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.88,
+    "server_total": 2.827842,
+    "processing": 0.028154,
+    "search": 2.790163
+   },
+   {
+    "run": 1,
+    "query_id": 54,
+    "category": "مع خاصية",
+    "http_round_trip": 5.19,
+    "server_total": 3.58479,
+    "processing": 0.029382,
+    "search": 3.544154
+   },
+   {
+    "run": 1,
+    "query_id": 55,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.75,
+    "server_total": 2.679955,
+    "processing": 0.025199,
+    "search": 2.646673
+   },
+   {
+    "run": 1,
+    "query_id": 56,
+    "category": "مباشرة",
+    "http_round_trip": 3.16,
+    "server_total": 2.151729,
+    "processing": 0.022153,
+    "search": 2.117299
+   },
+   {
+    "run": 1,
+    "query_id": 57,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.29,
+    "server_total": 1.96185,
+    "processing": 0.025425,
+    "search": 1.926023
+   },
+   {
+    "run": 1,
+    "query_id": 58,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.02,
+    "server_total": 1.89402,
+    "processing": 0.027793,
+    "search": 1.856657
+   },
+   {
+    "run": 1,
+    "query_id": 59,
+    "category": "مع خاصية",
+    "http_round_trip": 3.72,
+    "server_total": 2.641396,
+    "processing": 0.028083,
+    "search": 2.603456
+   },
+   {
+    "run": 1,
+    "query_id": 60,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.04,
+    "server_total": 1.937521,
+    "processing": 0.027143,
+    "search": 1.900675
+   },
+   {
+    "run": 1,
+    "query_id": 61,
+    "category": "مباشرة",
+    "http_round_trip": 3.78,
+    "server_total": 2.656641,
+    "processing": 0.026187,
+    "search": 2.619601
+   },
+   {
+    "run": 1,
+    "query_id": 62,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.23,
+    "server_total": 2.247334,
+    "processing": 0.02593,
+    "search": 2.211145
+   },
+   {
+    "run": 1,
+    "query_id": 63,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.41,
+    "server_total": 2.398784,
+    "processing": 0.027434,
+    "search": 2.362677
+   },
+   {
+    "run": 1,
+    "query_id": 64,
+    "category": "مع خاصية",
+    "http_round_trip": 3.98,
+    "server_total": 2.858984,
+    "processing": 0.025266,
+    "search": 2.825285
+   },
+   {
+    "run": 1,
+    "query_id": 65,
+    "category": "تنوع كتابي",
+    "http_round_trip": 5.79,
+    "server_total": 4.711828,
+    "processing": 0.027363,
+    "search": 4.674632
+   },
+   {
+    "run": 1,
+    "query_id": 66,
+    "category": "مباشرة",
+    "http_round_trip": 3.13,
+    "server_total": 1.964178,
+    "processing": 0.025238,
+    "search": 1.931961
+   },
+   {
+    "run": 1,
+    "query_id": 67,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.01,
+    "server_total": 1.949081,
+    "processing": 0.026468,
+    "search": 1.916305
+   },
+   {
+    "run": 1,
+    "query_id": 68,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.01,
+    "server_total": 1.961107,
+    "processing": 0.026693,
+    "search": 1.928
+   },
+   {
+    "run": 1,
+    "query_id": 69,
+    "category": "مع خاصية",
+    "http_round_trip": 4.17,
+    "server_total": 2.811623,
+    "processing": 0.02715,
+    "search": 2.639338
+   },
+   {
+    "run": 1,
+    "query_id": 70,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.2,
+    "server_total": 1.829184,
+    "processing": 0.02542,
+    "search": 1.797142
+   },
+   {
+    "run": 1,
+    "query_id": 71,
+    "category": "مباشرة",
+    "http_round_trip": 3.07,
+    "server_total": 2.005344,
+    "processing": 0.066097,
+    "search": 1.933034
+   },
+   {
+    "run": 1,
+    "query_id": 72,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.01,
+    "server_total": 1.883202,
+    "processing": 0.023574,
+    "search": 1.854991
+   },
+   {
+    "run": 1,
+    "query_id": 73,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.79,
+    "server_total": 1.784814,
+    "processing": 0.042337,
+    "search": 1.738078
+   },
+   {
+    "run": 1,
+    "query_id": 74,
+    "category": "مع خاصية",
+    "http_round_trip": 3.49,
+    "server_total": 2.471041,
+    "processing": 0.025792,
+    "search": 2.439689
+   },
+   {
+    "run": 1,
+    "query_id": 75,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.76,
+    "server_total": 1.773239,
+    "processing": 0.023439,
+    "search": 1.74539
+   },
+   {
+    "run": 1,
+    "query_id": 76,
+    "category": "مباشرة",
+    "http_round_trip": 3.77,
+    "server_total": 2.696626,
+    "processing": 0.024005,
+    "search": 2.66762
+   },
+   {
+    "run": 1,
+    "query_id": 77,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.44,
+    "server_total": 2.443963,
+    "processing": 0.027631,
+    "search": 2.41188
+   },
+   {
+    "run": 1,
+    "query_id": 78,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.12,
+    "server_total": 1.99277,
+    "processing": 0.023219,
+    "search": 1.965608
+   },
+   {
+    "run": 1,
+    "query_id": 79,
+    "category": "مع خاصية",
+    "http_round_trip": 5.63,
+    "server_total": 4.424492,
+    "processing": 0.031745,
+    "search": 4.388293
+   },
+   {
+    "run": 1,
+    "query_id": 80,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.32,
+    "server_total": 3.214579,
+    "processing": 0.027407,
+    "search": 3.18331
+   },
+   {
+    "run": 1,
+    "query_id": 81,
+    "category": "مباشرة",
+    "http_round_trip": 2.73,
+    "server_total": 1.590435,
+    "processing": 0.023938,
+    "search": 1.56172
+   },
+   {
+    "run": 1,
+    "query_id": 82,
+    "category": "لفظ دارج",
+    "http_round_trip": 1.95,
+    "server_total": 1.013366,
+    "processing": 0.020507,
+    "search": 0.988808
+   },
+   {
+    "run": 1,
+    "query_id": 83,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.32,
+    "server_total": 1.287276,
+    "processing": 0.025553,
+    "search": 1.258288
+   },
+   {
+    "run": 1,
+    "query_id": 84,
+    "category": "مع خاصية",
+    "http_round_trip": 3.3,
+    "server_total": 2.139313,
+    "processing": 0.030094,
+    "search": 2.101422
+   },
+   {
+    "run": 1,
+    "query_id": 85,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.69,
+    "server_total": 1.476772,
+    "processing": 0.024753,
+    "search": 1.448251
+   },
+   {
+    "run": 1,
+    "query_id": 86,
+    "category": "مباشرة",
+    "http_round_trip": 3.47,
+    "server_total": 2.313699,
+    "processing": 0.029557,
+    "search": 2.279891
+   },
+   {
+    "run": 1,
+    "query_id": 87,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.33,
+    "server_total": 2.214461,
+    "processing": 0.026227,
+    "search": 2.184918
+   },
+   {
+    "run": 1,
+    "query_id": 88,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.6,
+    "server_total": 2.454887,
+    "processing": 0.032711,
+    "search": 2.418729
+   },
+   {
+    "run": 1,
+    "query_id": 89,
+    "category": "مع خاصية",
+    "http_round_trip": 4.37,
+    "server_total": 3.195247,
+    "processing": 0.032345,
+    "search": 3.154303
+   },
+   {
+    "run": 1,
+    "query_id": 90,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.83,
+    "server_total": 1.708199,
+    "processing": 0.024601,
+    "search": 1.680412
+   },
+   {
+    "run": 1,
+    "query_id": 91,
+    "category": "مباشرة",
+    "http_round_trip": 2.66,
+    "server_total": 1.51809,
+    "processing": 0.025234,
+    "search": 1.487585
+   },
+   {
+    "run": 1,
+    "query_id": 92,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.64,
+    "server_total": 1.556203,
+    "processing": 0.023248,
+    "search": 1.528855
+   },
+   {
+    "run": 1,
+    "query_id": 93,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.55,
+    "server_total": 1.47951,
+    "processing": 0.026483,
+    "search": 1.448909
+   },
+   {
+    "run": 1,
+    "query_id": 94,
+    "category": "مع خاصية",
+    "http_round_trip": 3.12,
+    "server_total": 2.173362,
+    "processing": 0.026642,
+    "search": 2.142716
+   },
+   {
+    "run": 1,
+    "query_id": 95,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.76,
+    "server_total": 1.748763,
+    "processing": 0.045189,
+    "search": 1.69937
+   },
+   {
+    "run": 1,
+    "query_id": 96,
+    "category": "مباشرة",
+    "http_round_trip": 2.85,
+    "server_total": 1.869639,
+    "processing": 0.024382,
+    "search": 1.841811
+   },
+   {
+    "run": 1,
+    "query_id": 97,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.94,
+    "server_total": 1.80538,
+    "processing": 0.023251,
+    "search": 1.779491
+   },
+   {
+    "run": 1,
+    "query_id": 98,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.92,
+    "server_total": 1.861215,
+    "processing": 0.026955,
+    "search": 1.831409
+   },
+   {
+    "run": 1,
+    "query_id": 99,
+    "category": "مع خاصية",
+    "http_round_trip": 3.61,
+    "server_total": 2.50953,
+    "processing": 0.026704,
+    "search": 2.476589
+   },
+   {
+    "run": 1,
+    "query_id": 100,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.18,
+    "server_total": 1.851042,
+    "processing": 0.025676,
+    "search": 1.822553
+   },
+   {
+    "run": 2,
+    "query_id": 1,
+    "category": "مباشرة",
+    "http_round_trip": 3.8,
+    "server_total": 2.482974,
+    "processing": 0.125541,
+    "search": 2.351956
+   },
+   {
+    "run": 2,
+    "query_id": 2,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.25,
+    "server_total": 2.0918,
+    "processing": 0.025431,
+    "search": 2.061364
+   },
+   {
+    "run": 2,
+    "query_id": 3,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.99,
+    "server_total": 1.850803,
+    "processing": 0.030507,
+    "search": 1.815766
+   },
+   {
+    "run": 2,
+    "query_id": 4,
+    "category": "مع خاصية",
+    "http_round_trip": 4.74,
+    "server_total": 3.660831,
+    "processing": 0.028661,
+    "search": 3.626598
+   },
+   {
+    "run": 2,
+    "query_id": 5,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.84,
+    "server_total": 2.758413,
+    "processing": 0.023893,
+    "search": 2.729599
+   },
+   {
+    "run": 2,
+    "query_id": 6,
+    "category": "مباشرة",
+    "http_round_trip": 3.74,
+    "server_total": 2.654765,
+    "processing": 0.02754,
+    "search": 2.623446
+   },
+   {
+    "run": 2,
+    "query_id": 7,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.57,
+    "server_total": 1.639869,
+    "processing": 0.023985,
+    "search": 1.604455
+   },
+   {
+    "run": 2,
+    "query_id": 8,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.58,
+    "server_total": 1.580569,
+    "processing": 0.025055,
+    "search": 1.551768
+   },
+   {
+    "run": 2,
+    "query_id": 9,
+    "category": "مع خاصية",
+    "http_round_trip": 4.55,
+    "server_total": 3.582844,
+    "processing": 0.027216,
+    "search": 3.55054
+   },
+   {
+    "run": 2,
+    "query_id": 10,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.45,
+    "server_total": 2.484912,
+    "processing": 0.024416,
+    "search": 2.455777
+   },
+   {
+    "run": 2,
+    "query_id": 11,
+    "category": "مباشرة",
+    "http_round_trip": 2.81,
+    "server_total": 1.79708,
+    "processing": 0.022771,
+    "search": 1.769115
+   },
+   {
+    "run": 2,
+    "query_id": 12,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.01,
+    "server_total": 1.969109,
+    "processing": 0.025459,
+    "search": 1.938794
+   },
+   {
+    "run": 2,
+    "query_id": 13,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.06,
+    "server_total": 2.013484,
+    "processing": 0.028143,
+    "search": 1.979943
+   },
+   {
+    "run": 2,
+    "query_id": 14,
+    "category": "مع خاصية",
+    "http_round_trip": 3.47,
+    "server_total": 2.470738,
+    "processing": 0.027003,
+    "search": 2.438406
+   },
+   {
+    "run": 2,
+    "query_id": 15,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.51,
+    "server_total": 1.561549,
+    "processing": 0.025404,
+    "search": 1.531808
+   },
+   {
+    "run": 2,
+    "query_id": 16,
+    "category": "مباشرة",
+    "http_round_trip": 3.35,
+    "server_total": 1.648732,
+    "processing": 0.023941,
+    "search": 1.618821
+   },
+   {
+    "run": 2,
+    "query_id": 17,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.79,
+    "server_total": 1.615762,
+    "processing": 0.025778,
+    "search": 1.585054
+   },
+   {
+    "run": 2,
+    "query_id": 18,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.88,
+    "server_total": 1.858587,
+    "processing": 0.024976,
+    "search": 1.829132
+   },
+   {
+    "run": 2,
+    "query_id": 19,
+    "category": "مع خاصية",
+    "http_round_trip": 3.19,
+    "server_total": 2.283226,
+    "processing": 0.024696,
+    "search": 2.254209
+   },
+   {
+    "run": 2,
+    "query_id": 20,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.78,
+    "server_total": 1.805899,
+    "processing": 0.022499,
+    "search": 1.778512
+   },
+   {
+    "run": 2,
+    "query_id": 21,
+    "category": "مباشرة",
+    "http_round_trip": 2.6,
+    "server_total": 1.580184,
+    "processing": 0.022005,
+    "search": 1.55265
+   },
+   {
+    "run": 2,
+    "query_id": 22,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.71,
+    "server_total": 1.627086,
+    "processing": 0.024715,
+    "search": 1.596047
+   },
+   {
+    "run": 2,
+    "query_id": 23,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.2,
+    "server_total": 1.388928,
+    "processing": 0.024252,
+    "search": 1.360267
+   },
+   {
+    "run": 2,
+    "query_id": 24,
+    "category": "مع خاصية",
+    "http_round_trip": 2.94,
+    "server_total": 2.088162,
+    "processing": 0.022364,
+    "search": 2.060523
+   },
+   {
+    "run": 2,
+    "query_id": 25,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.04,
+    "server_total": 2.997284,
+    "processing": 0.02486,
+    "search": 2.967669
+   },
+   {
+    "run": 2,
+    "query_id": 26,
+    "category": "مباشرة",
+    "http_round_trip": 2.98,
+    "server_total": 1.872834,
+    "processing": 0.02447,
+    "search": 1.843877
+   },
+   {
+    "run": 2,
+    "query_id": 27,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.24,
+    "server_total": 2.090723,
+    "processing": 0.027612,
+    "search": 2.058208
+   },
+   {
+    "run": 2,
+    "query_id": 28,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.51,
+    "server_total": 1.634524,
+    "processing": 0.023914,
+    "search": 1.606373
+   },
+   {
+    "run": 2,
+    "query_id": 29,
+    "category": "مع خاصية",
+    "http_round_trip": 3.21,
+    "server_total": 2.265794,
+    "processing": 0.024005,
+    "search": 2.235882
+   },
+   {
+    "run": 2,
+    "query_id": 30,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.84,
+    "server_total": 2.928617,
+    "processing": 0.022979,
+    "search": 2.901184
+   },
+   {
+    "run": 2,
+    "query_id": 31,
+    "category": "مباشرة",
+    "http_round_trip": 3.66,
+    "server_total": 2.68762,
+    "processing": 0.024594,
+    "search": 2.656872
+   },
+   {
+    "run": 2,
+    "query_id": 32,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.96,
+    "server_total": 1.988794,
+    "processing": 0.023613,
+    "search": 1.960308
+   },
+   {
+    "run": 2,
+    "query_id": 33,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.04,
+    "server_total": 2.04415,
+    "processing": 0.029667,
+    "search": 2.010037
+   },
+   {
+    "run": 2,
+    "query_id": 34,
+    "category": "مع خاصية",
+    "http_round_trip": 4.76,
+    "server_total": 3.694734,
+    "processing": 0.029362,
+    "search": 3.66026
+   },
+   {
+    "run": 2,
+    "query_id": 35,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.73,
+    "server_total": 2.736259,
+    "processing": 0.027548,
+    "search": 2.704612
+   },
+   {
+    "run": 2,
+    "query_id": 36,
+    "category": "مباشرة",
+    "http_round_trip": 4.4,
+    "server_total": 3.162371,
+    "processing": 0.027517,
+    "search": 3.130101
+   },
+   {
+    "run": 2,
+    "query_id": 37,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.15,
+    "server_total": 2.093868,
+    "processing": 0.024978,
+    "search": 2.064283
+   },
+   {
+    "run": 2,
+    "query_id": 38,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.4,
+    "server_total": 2.350707,
+    "processing": 0.027583,
+    "search": 2.318383
+   },
+   {
+    "run": 2,
+    "query_id": 39,
+    "category": "مع خاصية",
+    "http_round_trip": 4.89,
+    "server_total": 3.929032,
+    "processing": 0.028297,
+    "search": 3.895845
+   },
+   {
+    "run": 2,
+    "query_id": 40,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.95,
+    "server_total": 2.940741,
+    "processing": 0.04717,
+    "search": 2.889328
+   },
+   {
+    "run": 2,
+    "query_id": 41,
+    "category": "مباشرة",
+    "http_round_trip": 4.83,
+    "server_total": 3.803666,
+    "processing": 0.028984,
+    "search": 3.761303
+   },
+   {
+    "run": 2,
+    "query_id": 42,
+    "category": "لفظ دارج",
+    "http_round_trip": 4.87,
+    "server_total": 3.868365,
+    "processing": 0.028235,
+    "search": 3.834905
+   },
+   {
+    "run": 2,
+    "query_id": 43,
+    "category": "صيغة طلب",
+    "http_round_trip": 4.83,
+    "server_total": 3.848306,
+    "processing": 0.030409,
+    "search": 3.813276
+   },
+   {
+    "run": 2,
+    "query_id": 44,
+    "category": "مع خاصية",
+    "http_round_trip": 5.78,
+    "server_total": 4.749783,
+    "processing": 0.029612,
+    "search": 4.715072
+   },
+   {
+    "run": 2,
+    "query_id": 45,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.87,
+    "server_total": 3.725126,
+    "processing": 0.029869,
+    "search": 3.690242
+   },
+   {
+    "run": 2,
+    "query_id": 46,
+    "category": "مباشرة",
+    "http_round_trip": 4.17,
+    "server_total": 3.153804,
+    "processing": 0.026575,
+    "search": 3.122766
+   },
+   {
+    "run": 2,
+    "query_id": 47,
+    "category": "لفظ دارج",
+    "http_round_trip": 4.23,
+    "server_total": 3.127193,
+    "processing": 0.029729,
+    "search": 3.0928
+   },
+   {
+    "run": 2,
+    "query_id": 48,
+    "category": "صيغة طلب",
+    "http_round_trip": 4.27,
+    "server_total": 3.220439,
+    "processing": 0.027929,
+    "search": 3.18748
+   },
+   {
+    "run": 2,
+    "query_id": 49,
+    "category": "مع خاصية",
+    "http_round_trip": 4.95,
+    "server_total": 3.888427,
+    "processing": 0.027835,
+    "search": 3.855216
+   },
+   {
+    "run": 2,
+    "query_id": 50,
+    "category": "تنوع كتابي",
+    "http_round_trip": 5.95,
+    "server_total": 4.587152,
+    "processing": 0.027266,
+    "search": 4.554472
+   },
+   {
+    "run": 2,
+    "query_id": 51,
+    "category": "مباشرة",
+    "http_round_trip": 4.6,
+    "server_total": 3.09875,
+    "processing": 0.026555,
+    "search": 3.064654
+   },
+   {
+    "run": 2,
+    "query_id": 52,
+    "category": "لفظ دارج",
+    "http_round_trip": 4.37,
+    "server_total": 2.877443,
+    "processing": 0.028971,
+    "search": 2.843053
+   },
+   {
+    "run": 2,
+    "query_id": 53,
+    "category": "صيغة طلب",
+    "http_round_trip": 7.16,
+    "server_total": 2.975447,
+    "processing": 0.029761,
+    "search": 2.941778
+   },
+   {
+    "run": 2,
+    "query_id": 54,
+    "category": "مع خاصية",
+    "http_round_trip": 4.98,
+    "server_total": 3.799118,
+    "processing": 0.028724,
+    "search": 3.763808
+   },
+   {
+    "run": 2,
+    "query_id": 55,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.82,
+    "server_total": 2.724876,
+    "processing": 0.025263,
+    "search": 2.695889
+   },
+   {
+    "run": 2,
+    "query_id": 56,
+    "category": "مباشرة",
+    "http_round_trip": 3.2,
+    "server_total": 2.119277,
+    "processing": 0.025708,
+    "search": 2.087946
+   },
+   {
+    "run": 2,
+    "query_id": 57,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.24,
+    "server_total": 2.237939,
+    "processing": 0.026128,
+    "search": 2.207331
+   },
+   {
+    "run": 2,
+    "query_id": 58,
+    "category": "صيغة طلب",
+    "http_round_trip": 4.42,
+    "server_total": 3.323831,
+    "processing": 0.028577,
+    "search": 3.290937
+   },
+   {
+    "run": 2,
+    "query_id": 59,
+    "category": "مع خاصية",
+    "http_round_trip": 3.98,
+    "server_total": 2.707463,
+    "processing": 0.028473,
+    "search": 2.673859
+   },
+   {
+    "run": 2,
+    "query_id": 60,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.72,
+    "server_total": 1.718294,
+    "processing": 0.027492,
+    "search": 1.686074
+   },
+   {
+    "run": 2,
+    "query_id": 61,
+    "category": "مباشرة",
+    "http_round_trip": 3.62,
+    "server_total": 2.588511,
+    "processing": 0.026993,
+    "search": 2.556673
+   },
+   {
+    "run": 2,
+    "query_id": 62,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.42,
+    "server_total": 2.475822,
+    "processing": 0.028691,
+    "search": 2.442706
+   },
+   {
+    "run": 2,
+    "query_id": 63,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.02,
+    "server_total": 2.115758,
+    "processing": 0.031525,
+    "search": 2.080364
+   },
+   {
+    "run": 2,
+    "query_id": 64,
+    "category": "مع خاصية",
+    "http_round_trip": 3.54,
+    "server_total": 2.58329,
+    "processing": 0.025757,
+    "search": 2.553273
+   },
+   {
+    "run": 2,
+    "query_id": 65,
+    "category": "تنوع كتابي",
+    "http_round_trip": 5.33,
+    "server_total": 4.353742,
+    "processing": 0.023813,
+    "search": 4.325787
+   },
+   {
+    "run": 2,
+    "query_id": 66,
+    "category": "مباشرة",
+    "http_round_trip": 2.77,
+    "server_total": 1.69264,
+    "processing": 0.024962,
+    "search": 1.664557
+   },
+   {
+    "run": 2,
+    "query_id": 67,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.47,
+    "server_total": 1.540419,
+    "processing": 0.025728,
+    "search": 1.511899
+   },
+   {
+    "run": 2,
+    "query_id": 68,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.83,
+    "server_total": 1.553343,
+    "processing": 0.026552,
+    "search": 1.524218
+   },
+   {
+    "run": 2,
+    "query_id": 69,
+    "category": "مع خاصية",
+    "http_round_trip": 4.16,
+    "server_total": 2.563059,
+    "processing": 0.029394,
+    "search": 2.52726
+   },
+   {
+    "run": 2,
+    "query_id": 70,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.8,
+    "server_total": 1.776758,
+    "processing": 0.028295,
+    "search": 1.745817
+   },
+   {
+    "run": 2,
+    "query_id": 71,
+    "category": "مباشرة",
+    "http_round_trip": 2.72,
+    "server_total": 1.780301,
+    "processing": 0.024096,
+    "search": 1.751378
+   },
+   {
+    "run": 2,
+    "query_id": 72,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.7,
+    "server_total": 1.716912,
+    "processing": 0.026751,
+    "search": 1.68485
+   },
+   {
+    "run": 2,
+    "query_id": 73,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.78,
+    "server_total": 1.731887,
+    "processing": 0.0245,
+    "search": 1.702841
+   },
+   {
+    "run": 2,
+    "query_id": 74,
+    "category": "مع خاصية",
+    "http_round_trip": 3.5,
+    "server_total": 2.450395,
+    "processing": 0.027406,
+    "search": 2.417909
+   },
+   {
+    "run": 2,
+    "query_id": 75,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.97,
+    "server_total": 1.91369,
+    "processing": 0.025731,
+    "search": 1.88362
+   },
+   {
+    "run": 2,
+    "query_id": 76,
+    "category": "مباشرة",
+    "http_round_trip": 3.59,
+    "server_total": 2.581927,
+    "processing": 0.047829,
+    "search": 2.529971
+   },
+   {
+    "run": 2,
+    "query_id": 77,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.98,
+    "server_total": 1.991023,
+    "processing": 0.022042,
+    "search": 1.964473
+   },
+   {
+    "run": 2,
+    "query_id": 78,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.06,
+    "server_total": 2.072855,
+    "processing": 0.024566,
+    "search": 2.044926
+   },
+   {
+    "run": 2,
+    "query_id": 79,
+    "category": "مع خاصية",
+    "http_round_trip": 4.5,
+    "server_total": 3.561155,
+    "processing": 0.028133,
+    "search": 3.528949
+   },
+   {
+    "run": 2,
+    "query_id": 80,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.28,
+    "server_total": 2.428032,
+    "processing": 0.024061,
+    "search": 2.400315
+   },
+   {
+    "run": 2,
+    "query_id": 81,
+    "category": "مباشرة",
+    "http_round_trip": 1.72,
+    "server_total": 0.743351,
+    "processing": 0.020627,
+    "search": 0.718627
+   },
+   {
+    "run": 2,
+    "query_id": 82,
+    "category": "لفظ دارج",
+    "http_round_trip": 1.67,
+    "server_total": 0.728275,
+    "processing": 0.028433,
+    "search": 0.696321
+   },
+   {
+    "run": 2,
+    "query_id": 83,
+    "category": "صيغة طلب",
+    "http_round_trip": 1.68,
+    "server_total": 0.746087,
+    "processing": 0.023248,
+    "search": 0.719732
+   },
+   {
+    "run": 2,
+    "query_id": 84,
+    "category": "مع خاصية",
+    "http_round_trip": 2.73,
+    "server_total": 1.752013,
+    "processing": 0.026636,
+    "search": 1.719529
+   },
+   {
+    "run": 2,
+    "query_id": 85,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.16,
+    "server_total": 1.109443,
+    "processing": 0.022031,
+    "search": 1.084096
+   },
+   {
+    "run": 2,
+    "query_id": 86,
+    "category": "مباشرة",
+    "http_round_trip": 2.76,
+    "server_total": 1.793277,
+    "processing": 0.025199,
+    "search": 1.764507
+   },
+   {
+    "run": 2,
+    "query_id": 87,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.01,
+    "server_total": 1.962264,
+    "processing": 0.022404,
+    "search": 1.937018
+   },
+   {
+    "run": 2,
+    "query_id": 88,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.88,
+    "server_total": 1.940714,
+    "processing": 0.027469,
+    "search": 1.910509
+   },
+   {
+    "run": 2,
+    "query_id": 89,
+    "category": "مع خاصية",
+    "http_round_trip": 3.78,
+    "server_total": 2.525125,
+    "processing": 0.030139,
+    "search": 2.480789
+   },
+   {
+    "run": 2,
+    "query_id": 90,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.69,
+    "server_total": 1.579787,
+    "processing": 0.049497,
+    "search": 1.52743
+   },
+   {
+    "run": 2,
+    "query_id": 91,
+    "category": "مباشرة",
+    "http_round_trip": 2.69,
+    "server_total": 1.739514,
+    "processing": 0.023895,
+    "search": 1.709699
+   },
+   {
+    "run": 2,
+    "query_id": 92,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.47,
+    "server_total": 1.36385,
+    "processing": 0.025176,
+    "search": 1.334131
+   },
+   {
+    "run": 2,
+    "query_id": 93,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.38,
+    "server_total": 1.39933,
+    "processing": 0.027826,
+    "search": 1.367856
+   },
+   {
+    "run": 2,
+    "query_id": 94,
+    "category": "مع خاصية",
+    "http_round_trip": 3.28,
+    "server_total": 2.254661,
+    "processing": 0.027579,
+    "search": 2.223435
+   },
+   {
+    "run": 2,
+    "query_id": 95,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.73,
+    "server_total": 1.764173,
+    "processing": 0.025426,
+    "search": 1.735139
+   },
+   {
+    "run": 2,
+    "query_id": 96,
+    "category": "مباشرة",
+    "http_round_trip": 2.45,
+    "server_total": 1.459438,
+    "processing": 0.024555,
+    "search": 1.431523
+   },
+   {
+    "run": 2,
+    "query_id": 97,
+    "category": "لفظ دارج",
+    "http_round_trip": 7.56,
+    "server_total": 1.649618,
+    "processing": 0.022269,
+    "search": 1.623898
+   },
+   {
+    "run": 2,
+    "query_id": 98,
+    "category": "صيغة طلب",
+    "http_round_trip": 4.02,
+    "server_total": 2.819159,
+    "processing": 0.028842,
+    "search": 2.786947
+   },
+   {
+    "run": 2,
+    "query_id": 99,
+    "category": "مع خاصية",
+    "http_round_trip": 3.56,
+    "server_total": 2.425848,
+    "processing": 0.034783,
+    "search": 2.385243
+   },
+   {
+    "run": 2,
+    "query_id": 100,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.77,
+    "server_total": 1.752686,
+    "processing": 0.027699,
+    "search": 1.72209
+   },
+   {
+    "run": 3,
+    "query_id": 1,
+    "category": "مباشرة",
+    "http_round_trip": 3.9,
+    "server_total": 2.812893,
+    "processing": 0.029307,
+    "search": 2.778912
+   },
+   {
+    "run": 3,
+    "query_id": 2,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.75,
+    "server_total": 1.68488,
+    "processing": 0.025923,
+    "search": 1.654736
+   },
+   {
+    "run": 3,
+    "query_id": 3,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.52,
+    "server_total": 1.589616,
+    "processing": 0.029398,
+    "search": 1.556188
+   },
+   {
+    "run": 3,
+    "query_id": 4,
+    "category": "مع خاصية",
+    "http_round_trip": 4.2,
+    "server_total": 3.256102,
+    "processing": 0.028893,
+    "search": 3.22194
+   },
+   {
+    "run": 3,
+    "query_id": 5,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.72,
+    "server_total": 2.704468,
+    "processing": 0.027133,
+    "search": 2.588259
+   },
+   {
+    "run": 3,
+    "query_id": 6,
+    "category": "مباشرة",
+    "http_round_trip": 3.43,
+    "server_total": 2.453883,
+    "processing": 0.027245,
+    "search": 2.422643
+   },
+   {
+    "run": 3,
+    "query_id": 7,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.59,
+    "server_total": 1.619637,
+    "processing": 0.025198,
+    "search": 1.590497
+   },
+   {
+    "run": 3,
+    "query_id": 8,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.43,
+    "server_total": 1.545853,
+    "processing": 0.024827,
+    "search": 1.516778
+   },
+   {
+    "run": 3,
+    "query_id": 9,
+    "category": "مع خاصية",
+    "http_round_trip": 4.06,
+    "server_total": 2.997011,
+    "processing": 0.028903,
+    "search": 2.963364
+   },
+   {
+    "run": 3,
+    "query_id": 10,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.69,
+    "server_total": 2.620996,
+    "processing": 0.027065,
+    "search": 2.589724
+   },
+   {
+    "run": 3,
+    "query_id": 11,
+    "category": "مباشرة",
+    "http_round_trip": 2.78,
+    "server_total": 1.720574,
+    "processing": 0.024885,
+    "search": 1.690957
+   },
+   {
+    "run": 3,
+    "query_id": 12,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.6,
+    "server_total": 1.594772,
+    "processing": 0.025835,
+    "search": 1.564041
+   },
+   {
+    "run": 3,
+    "query_id": 13,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.72,
+    "server_total": 2.516153,
+    "processing": 0.041312,
+    "search": 2.468447
+   },
+   {
+    "run": 3,
+    "query_id": 14,
+    "category": "مع خاصية",
+    "http_round_trip": 8.14,
+    "server_total": 3.826736,
+    "processing": 0.03454,
+    "search": 3.785056
+   },
+   {
+    "run": 3,
+    "query_id": 15,
+    "category": "تنوع كتابي",
+    "http_round_trip": 6.65,
+    "server_total": 2.339842,
+    "processing": 0.027866,
+    "search": 2.307092
+   },
+   {
+    "run": 3,
+    "query_id": 16,
+    "category": "مباشرة",
+    "http_round_trip": 2.89,
+    "server_total": 1.67149,
+    "processing": 0.024318,
+    "search": 1.640859
+   },
+   {
+    "run": 3,
+    "query_id": 17,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.79,
+    "server_total": 1.668983,
+    "processing": 0.026842,
+    "search": 1.637169
+   },
+   {
+    "run": 3,
+    "query_id": 18,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.96,
+    "server_total": 1.856387,
+    "processing": 0.028349,
+    "search": 1.823395
+   },
+   {
+    "run": 3,
+    "query_id": 19,
+    "category": "مع خاصية",
+    "http_round_trip": 3.93,
+    "server_total": 2.793601,
+    "processing": 0.026819,
+    "search": 2.762069
+   },
+   {
+    "run": 3,
+    "query_id": 20,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.96,
+    "server_total": 1.74935,
+    "processing": 0.026719,
+    "search": 1.717985
+   },
+   {
+    "run": 3,
+    "query_id": 21,
+    "category": "مباشرة",
+    "http_round_trip": 2.56,
+    "server_total": 1.411513,
+    "processing": 0.024052,
+    "search": 1.382313
+   },
+   {
+    "run": 3,
+    "query_id": 22,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.67,
+    "server_total": 1.575982,
+    "processing": 0.025332,
+    "search": 1.545581
+   },
+   {
+    "run": 3,
+    "query_id": 23,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.06,
+    "server_total": 1.930968,
+    "processing": 0.028088,
+    "search": 1.898231
+   },
+   {
+    "run": 3,
+    "query_id": 24,
+    "category": "مع خاصية",
+    "http_round_trip": 3.54,
+    "server_total": 2.369236,
+    "processing": 0.027282,
+    "search": 2.336099
+   },
+   {
+    "run": 3,
+    "query_id": 25,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.7,
+    "server_total": 3.499156,
+    "processing": 0.026599,
+    "search": 3.467603
+   },
+   {
+    "run": 3,
+    "query_id": 26,
+    "category": "مباشرة",
+    "http_round_trip": 3.38,
+    "server_total": 2.1528,
+    "processing": 0.02726,
+    "search": 2.071799
+   },
+   {
+    "run": 3,
+    "query_id": 27,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.38,
+    "server_total": 2.114063,
+    "processing": 0.027978,
+    "search": 2.080989
+   },
+   {
+    "run": 3,
+    "query_id": 28,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.36,
+    "server_total": 2.152487,
+    "processing": 0.0301,
+    "search": 2.117322
+   },
+   {
+    "run": 3,
+    "query_id": 29,
+    "category": "مع خاصية",
+    "http_round_trip": 4.01,
+    "server_total": 2.621522,
+    "processing": 0.029953,
+    "search": 2.58517
+   },
+   {
+    "run": 3,
+    "query_id": 30,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.94,
+    "server_total": 3.503763,
+    "processing": 0.02761,
+    "search": 3.471369
+   },
+   {
+    "run": 3,
+    "query_id": 31,
+    "category": "مباشرة",
+    "http_round_trip": 3.99,
+    "server_total": 2.762404,
+    "processing": 0.027335,
+    "search": 2.72992
+   },
+   {
+    "run": 3,
+    "query_id": 32,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.85,
+    "server_total": 2.65287,
+    "processing": 0.032583,
+    "search": 2.615115
+   },
+   {
+    "run": 3,
+    "query_id": 33,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.16,
+    "server_total": 2.06343,
+    "processing": 0.028716,
+    "search": 2.029835
+   },
+   {
+    "run": 3,
+    "query_id": 34,
+    "category": "مع خاصية",
+    "http_round_trip": 4.61,
+    "server_total": 3.378546,
+    "processing": 0.029764,
+    "search": 3.343911
+   },
+   {
+    "run": 3,
+    "query_id": 35,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.11,
+    "server_total": 2.858412,
+    "processing": 0.026967,
+    "search": 2.827198
+   },
+   {
+    "run": 3,
+    "query_id": 36,
+    "category": "مباشرة",
+    "http_round_trip": 4.29,
+    "server_total": 3.179343,
+    "processing": 0.027111,
+    "search": 3.14699
+   },
+   {
+    "run": 3,
+    "query_id": 37,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.34,
+    "server_total": 2.146446,
+    "processing": 0.02516,
+    "search": 2.117221
+   },
+   {
+    "run": 3,
+    "query_id": 38,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.22,
+    "server_total": 2.034123,
+    "processing": 0.027421,
+    "search": 2.002741
+   },
+   {
+    "run": 3,
+    "query_id": 39,
+    "category": "مع خاصية",
+    "http_round_trip": 4.79,
+    "server_total": 3.688069,
+    "processing": 0.028986,
+    "search": 3.654293
+   },
+   {
+    "run": 3,
+    "query_id": 40,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.13,
+    "server_total": 2.870784,
+    "processing": 0.032431,
+    "search": 2.834003
+   },
+   {
+    "run": 3,
+    "query_id": 41,
+    "category": "مباشرة",
+    "http_round_trip": 4.86,
+    "server_total": 3.61054,
+    "processing": 0.028153,
+    "search": 3.576204
+   },
+   {
+    "run": 3,
+    "query_id": 42,
+    "category": "لفظ دارج",
+    "http_round_trip": 4.87,
+    "server_total": 3.61422,
+    "processing": 0.030563,
+    "search": 3.575062
+   },
+   {
+    "run": 3,
+    "query_id": 43,
+    "category": "صيغة طلب",
+    "http_round_trip": 5.32,
+    "server_total": 4.043588,
+    "processing": 0.032421,
+    "search": 4.00311
+   },
+   {
+    "run": 3,
+    "query_id": 44,
+    "category": "مع خاصية",
+    "http_round_trip": 5.76,
+    "server_total": 4.616757,
+    "processing": 0.029996,
+    "search": 4.582313
+   },
+   {
+    "run": 3,
+    "query_id": 45,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.91,
+    "server_total": 3.75752,
+    "processing": 0.029717,
+    "search": 3.723193
+   },
+   {
+    "run": 3,
+    "query_id": 46,
+    "category": "مباشرة",
+    "http_round_trip": 4.13,
+    "server_total": 2.967152,
+    "processing": 0.035059,
+    "search": 2.927129
+   },
+   {
+    "run": 3,
+    "query_id": 47,
+    "category": "لفظ دارج",
+    "http_round_trip": 4.23,
+    "server_total": 3.038086,
+    "processing": 0.025118,
+    "search": 3.008082
+   },
+   {
+    "run": 3,
+    "query_id": 48,
+    "category": "صيغة طلب",
+    "http_round_trip": 4.33,
+    "server_total": 3.172222,
+    "processing": 0.02728,
+    "search": 3.140023
+   },
+   {
+    "run": 3,
+    "query_id": 49,
+    "category": "مع خاصية",
+    "http_round_trip": 4.75,
+    "server_total": 3.575915,
+    "processing": 0.028131,
+    "search": 3.542662
+   },
+   {
+    "run": 3,
+    "query_id": 50,
+    "category": "تنوع كتابي",
+    "http_round_trip": 5.28,
+    "server_total": 4.099593,
+    "processing": 0.027882,
+    "search": 4.066561
+   },
+   {
+    "run": 3,
+    "query_id": 51,
+    "category": "مباشرة",
+    "http_round_trip": 5.97,
+    "server_total": 2.826401,
+    "processing": 0.030405,
+    "search": 2.791124
+   },
+   {
+    "run": 3,
+    "query_id": 52,
+    "category": "لفظ دارج",
+    "http_round_trip": 4.3,
+    "server_total": 2.733448,
+    "processing": 0.030795,
+    "search": 2.698249
+   },
+   {
+    "run": 3,
+    "query_id": 53,
+    "category": "صيغة طلب",
+    "http_round_trip": 4.06,
+    "server_total": 2.924854,
+    "processing": 0.027728,
+    "search": 2.892987
+   },
+   {
+    "run": 3,
+    "query_id": 54,
+    "category": "مع خاصية",
+    "http_round_trip": 4.72,
+    "server_total": 3.492506,
+    "processing": 0.028333,
+    "search": 3.458813
+   },
+   {
+    "run": 3,
+    "query_id": 55,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.88,
+    "server_total": 2.721533,
+    "processing": 0.027606,
+    "search": 2.689939
+   },
+   {
+    "run": 3,
+    "query_id": 56,
+    "category": "مباشرة",
+    "http_round_trip": 3.22,
+    "server_total": 2.082719,
+    "processing": 0.024982,
+    "search": 2.047899
+   },
+   {
+    "run": 3,
+    "query_id": 57,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.87,
+    "server_total": 1.681963,
+    "processing": 0.026421,
+    "search": 1.650892
+   },
+   {
+    "run": 3,
+    "query_id": 58,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.01,
+    "server_total": 1.758448,
+    "processing": 0.027343,
+    "search": 1.726351
+   },
+   {
+    "run": 3,
+    "query_id": 59,
+    "category": "مع خاصية",
+    "http_round_trip": 4.7,
+    "server_total": 3.31044,
+    "processing": 0.034542,
+    "search": 3.270016
+   },
+   {
+    "run": 3,
+    "query_id": 60,
+    "category": "تنوع كتابي",
+    "http_round_trip": 3.29,
+    "server_total": 2.113396,
+    "processing": 0.032814,
+    "search": 2.076021
+   },
+   {
+    "run": 3,
+    "query_id": 61,
+    "category": "مباشرة",
+    "http_round_trip": 4.08,
+    "server_total": 2.693328,
+    "processing": 0.029401,
+    "search": 2.65888
+   },
+   {
+    "run": 3,
+    "query_id": 62,
+    "category": "لفظ دارج",
+    "http_round_trip": 4.11,
+    "server_total": 2.836936,
+    "processing": 0.033674,
+    "search": 2.798027
+   },
+   {
+    "run": 3,
+    "query_id": 63,
+    "category": "صيغة طلب",
+    "http_round_trip": 4.47,
+    "server_total": 3.185679,
+    "processing": 0.034993,
+    "search": 3.146069
+   },
+   {
+    "run": 3,
+    "query_id": 64,
+    "category": "مع خاصية",
+    "http_round_trip": 4.27,
+    "server_total": 3.153155,
+    "processing": 0.029146,
+    "search": 3.119809
+   },
+   {
+    "run": 3,
+    "query_id": 65,
+    "category": "تنوع كتابي",
+    "http_round_trip": 5.9,
+    "server_total": 4.775557,
+    "processing": 0.026749,
+    "search": 4.744632
+   },
+   {
+    "run": 3,
+    "query_id": 66,
+    "category": "مباشرة",
+    "http_round_trip": 2.72,
+    "server_total": 1.638846,
+    "processing": 0.048716,
+    "search": 1.587188
+   },
+   {
+    "run": 3,
+    "query_id": 67,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.9,
+    "server_total": 1.864933,
+    "processing": 0.025224,
+    "search": 1.836847
+   },
+   {
+    "run": 3,
+    "query_id": 68,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.32,
+    "server_total": 2.076951,
+    "processing": 0.027484,
+    "search": 2.046855
+   },
+   {
+    "run": 3,
+    "query_id": 69,
+    "category": "مع خاصية",
+    "http_round_trip": 3.8,
+    "server_total": 2.533302,
+    "processing": 0.027053,
+    "search": 2.500755
+   },
+   {
+    "run": 3,
+    "query_id": 70,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.82,
+    "server_total": 1.707647,
+    "processing": 0.025717,
+    "search": 1.678938
+   },
+   {
+    "run": 3,
+    "query_id": 71,
+    "category": "مباشرة",
+    "http_round_trip": 3.15,
+    "server_total": 1.977626,
+    "processing": 0.023953,
+    "search": 1.948188
+   },
+   {
+    "run": 3,
+    "query_id": 72,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.21,
+    "server_total": 2.156364,
+    "processing": 0.02768,
+    "search": 2.123955
+   },
+   {
+    "run": 3,
+    "query_id": 73,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.02,
+    "server_total": 1.898961,
+    "processing": 0.028378,
+    "search": 1.866299
+   },
+   {
+    "run": 3,
+    "query_id": 74,
+    "category": "مع خاصية",
+    "http_round_trip": 3.69,
+    "server_total": 2.586873,
+    "processing": 0.049454,
+    "search": 2.532355
+   },
+   {
+    "run": 3,
+    "query_id": 75,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.82,
+    "server_total": 1.793994,
+    "processing": 0.024463,
+    "search": 1.765169
+   },
+   {
+    "run": 3,
+    "query_id": 76,
+    "category": "مباشرة",
+    "http_round_trip": 4.42,
+    "server_total": 2.761468,
+    "processing": 0.026979,
+    "search": 2.730102
+   },
+   {
+    "run": 3,
+    "query_id": 77,
+    "category": "لفظ دارج",
+    "http_round_trip": 3.12,
+    "server_total": 2.05166,
+    "processing": 0.02357,
+    "search": 2.024027
+   },
+   {
+    "run": 3,
+    "query_id": 78,
+    "category": "صيغة طلب",
+    "http_round_trip": 3.01,
+    "server_total": 2.080068,
+    "processing": 0.025754,
+    "search": 2.050298
+   },
+   {
+    "run": 3,
+    "query_id": 79,
+    "category": "مع خاصية",
+    "http_round_trip": 5.04,
+    "server_total": 4.125309,
+    "processing": 0.029676,
+    "search": 4.091334
+   },
+   {
+    "run": 3,
+    "query_id": 80,
+    "category": "تنوع كتابي",
+    "http_round_trip": 4.11,
+    "server_total": 2.985647,
+    "processing": 0.026335,
+    "search": 2.955337
+   },
+   {
+    "run": 3,
+    "query_id": 81,
+    "category": "مباشرة",
+    "http_round_trip": 2,
+    "server_total": 1.101134,
+    "processing": 0.021513,
+    "search": 1.076014
+   },
+   {
+    "run": 3,
+    "query_id": 82,
+    "category": "لفظ دارج",
+    "http_round_trip": 1.88,
+    "server_total": 1.000332,
+    "processing": 0.022125,
+    "search": 0.974863
+   },
+   {
+    "run": 3,
+    "query_id": 83,
+    "category": "صيغة طلب",
+    "http_round_trip": 1.97,
+    "server_total": 1.032478,
+    "processing": 0.045502,
+    "search": 0.96698
+   },
+   {
+    "run": 3,
+    "query_id": 84,
+    "category": "مع خاصية",
+    "http_round_trip": 2.73,
+    "server_total": 1.585787,
+    "processing": 0.027351,
+    "search": 1.551869
+   },
+   {
+    "run": 3,
+    "query_id": 85,
+    "category": "تنوع كتابي",
+    "http_round_trip": 1.9,
+    "server_total": 0.853407,
+    "processing": 0.021763,
+    "search": 0.828419
+   },
+   {
+    "run": 3,
+    "query_id": 86,
+    "category": "مباشرة",
+    "http_round_trip": 2.87,
+    "server_total": 1.77699,
+    "processing": 0.023646,
+    "search": 1.750217
+   },
+   {
+    "run": 3,
+    "query_id": 87,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.79,
+    "server_total": 1.760855,
+    "processing": 0.023706,
+    "search": 1.73398
+   },
+   {
+    "run": 3,
+    "query_id": 88,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.88,
+    "server_total": 1.961884,
+    "processing": 0.02978,
+    "search": 1.928946
+   },
+   {
+    "run": 3,
+    "query_id": 89,
+    "category": "مع خاصية",
+    "http_round_trip": 3.34,
+    "server_total": 2.352846,
+    "processing": 0.027642,
+    "search": 2.318672
+   },
+   {
+    "run": 3,
+    "query_id": 90,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.25,
+    "server_total": 1.357646,
+    "processing": 0.025502,
+    "search": 1.329171
+   },
+   {
+    "run": 3,
+    "query_id": 91,
+    "category": "مباشرة",
+    "http_round_trip": 2.43,
+    "server_total": 1.469873,
+    "processing": 0.025313,
+    "search": 1.440126
+   },
+   {
+    "run": 3,
+    "query_id": 92,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.68,
+    "server_total": 1.646688,
+    "processing": 0.026009,
+    "search": 1.615852
+   },
+   {
+    "run": 3,
+    "query_id": 93,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.32,
+    "server_total": 1.380895,
+    "processing": 0.028252,
+    "search": 1.348964
+   },
+   {
+    "run": 3,
+    "query_id": 94,
+    "category": "مع خاصية",
+    "http_round_trip": 3.08,
+    "server_total": 2.099573,
+    "processing": 0.026884,
+    "search": 2.069154
+   },
+   {
+    "run": 3,
+    "query_id": 95,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.71,
+    "server_total": 1.76205,
+    "processing": 0.025214,
+    "search": 1.733456
+   },
+   {
+    "run": 3,
+    "query_id": 96,
+    "category": "مباشرة",
+    "http_round_trip": 2.51,
+    "server_total": 1.619128,
+    "processing": 0.043609,
+    "search": 1.572353
+   },
+   {
+    "run": 3,
+    "query_id": 97,
+    "category": "لفظ دارج",
+    "http_round_trip": 2.42,
+    "server_total": 1.513595,
+    "processing": 0.022533,
+    "search": 1.488315
+   },
+   {
+    "run": 3,
+    "query_id": 98,
+    "category": "صيغة طلب",
+    "http_round_trip": 2.92,
+    "server_total": 1.627744,
+    "processing": 0.02833,
+    "search": 1.596554
+   },
+   {
+    "run": 3,
+    "query_id": 99,
+    "category": "مع خاصية",
+    "http_round_trip": 4.81,
+    "server_total": 2.639789,
+    "processing": 0.027573,
+    "search": 2.606213
+   },
+   {
+    "run": 3,
+    "query_id": 100,
+    "category": "تنوع كتابي",
+    "http_round_trip": 2.37,
+    "server_total": 1.463354,
+    "processing": 0.024463,
+    "search": 1.436466
+   }
+  ]
+ }
+}

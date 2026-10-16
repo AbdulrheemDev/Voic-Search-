@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "مساعد البحث الصوتي الذكي في المتاجر العربية",
+  "name_en": "Arabic Voice Search for E-Commerce",
+  "version": "1.0.0",
+  "description": "إضافة متصفح كروم تتيح البحث الصوتي الذكي باللهجات العربية في أي متجر إلكتروني مع التطبيع وحذف عبارات الطلب والقاموس التجاري.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "إعدادات البحث الصوتي الذكي"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

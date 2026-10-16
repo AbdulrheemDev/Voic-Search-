@@ -1,0 +1,35 @@
+.ar-voice-search-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #cbd5e1;
+  background-color: #ffffff;
+  color: #2563eb;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 4px;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+  z-index: 9999;
+}
+
+.ar-voice-search-btn:hover {
+  background-color: #eff6ff;
+  border-color: #3b82f6;
+  transform: scale(1.05);
+}
+
+.ar-voice-search-btn.ar-listening {
+  background-color: #fee2e2 !important;
+  border-color: #ef4444 !important;
+  animation: arPulse 1.2s infinite;
+}
+
+@keyframes arPulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.5); }
+  50% { transform: scale(1.1); box-shadow: 0 0 0 8px rgba(239, 68, 68, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
