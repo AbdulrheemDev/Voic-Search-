@@ -1,0 +1,59 @@
+{
+  "name": "محرك البحث الصوتي الذكي العربي لسلة",
+  "name_en": "Arabic Voice Search Engine for Salla",
+  "identifier": "ar-voice-search",
+  "version": "1.0.0",
+  "support_email": "support@voicesearch.dev",
+  "homepage": "https://voicesearch.dev",
+  "scopes": [
+    "read_products",
+    "offline_access"
+  ],
+  "webhooks": [
+    {
+      "event": "product.created",
+      "rule": "product.created",
+      "version": "2",
+      "url": "https://api.voicesearch.dev/salla/webhooks/product-created"
+    },
+    {
+      "event": "product.updated",
+      "rule": "product.updated",
+      "version": "2",
+      "url": "https://api.voicesearch.dev/salla/webhooks/product-updated"
+    },
+    {
+      "event": "product.deleted",
+      "rule": "product.deleted",
+      "version": "2",
+      "url": "https://api.voicesearch.dev/salla/webhooks/product-deleted"
+    }
+  ],
+  "theme_scripts": [
+    {
+      "src": "https://cdn.voicesearch.dev/salla/voice-search-salla.js",
+      "location": "header",
+      "defer": true
+    }
+  ],
+  "settings": [
+    {
+      "key": "enable_dialect_lexicon",
+      "type": "boolean",
+      "label": "تفعيل القاموس التجاري الموسع للهجات",
+      "default": true
+    },
+    {
+      "key": "store_primary_dialect",
+      "type": "select",
+      "label": "اللهجة الغالبة على عملاء المتجر",
+      "options": [
+        { "label": "سعودية / خليجية", "value": "gulf" },
+        { "label": "يمنية", "value": "yemen" },
+        { "label": "مصرية", "value": "egypt" },
+        { "label": "شامية", "value": "levant" }
+      ],
+      "default": "gulf"
+    }
+  ]
+}
