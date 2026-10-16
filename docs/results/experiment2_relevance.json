@@ -115,6 +115,50 @@
      }
     }
    }
+  },
+  "asr": {
+   "أ": {
+    "queries": 1,
+    "P_at_5": 0.8,
+    "MRR": 1,
+    "no_results": 0,
+    "by_category": {
+     "مباشرة": {
+      "queries": 1,
+      "P_at_5": 0.8,
+      "MRR": 1,
+      "no_results": 0
+     }
+    }
+   },
+   "ب": {
+    "queries": 1,
+    "P_at_5": 0.8,
+    "MRR": 1,
+    "no_results": 0,
+    "by_category": {
+     "مباشرة": {
+      "queries": 1,
+      "P_at_5": 0.8,
+      "MRR": 1,
+      "no_results": 0
+     }
+    }
+   },
+   "ج": {
+    "queries": 1,
+    "P_at_5": 0.8,
+    "MRR": 1,
+    "no_results": 0,
+    "by_category": {
+     "مباشرة": {
+      "queries": 1,
+      "P_at_5": 0.8,
+      "MRR": 1,
+      "no_results": 0
+     }
+    }
+   }
   }
  },
  "rows": [
@@ -4053,6 +4097,84 @@
    "processed": "",
    "hits": "",
    "precision_5": "0.720",
+   "rank_first_relevant": "",
+   "rr": "1.000",
+   "no_results": 0
+  },
+  {
+   "query_id": 1,
+   "category": "مباشرة",
+   "setting": "أ",
+   "source": "asr",
+   "query_text": "حقيبة ظهر جلدية",
+   "processed": "حقيبة ظهر جلدية",
+   "hits": "1 2 3 4 5",
+   "precision_5": "0.800",
+   "rank_first_relevant": 1,
+   "rr": "1.000",
+   "no_results": 0
+  },
+  {
+   "query_id": "—",
+   "category": "الإجمالي",
+   "setting": "أ",
+   "source": "asr",
+   "query_text": "عدد الاستعالمات: 1",
+   "processed": "",
+   "hits": "",
+   "precision_5": "0.800",
+   "rank_first_relevant": "",
+   "rr": "1.000",
+   "no_results": 0
+  },
+  {
+   "query_id": 1,
+   "category": "مباشرة",
+   "setting": "ب",
+   "source": "asr",
+   "query_text": "حقيبة ظهر جلدية",
+   "processed": "حقيبه ظهر جلديه",
+   "hits": "1 2 3 4 5",
+   "precision_5": "0.800",
+   "rank_first_relevant": 1,
+   "rr": "1.000",
+   "no_results": 0
+  },
+  {
+   "query_id": "—",
+   "category": "الإجمالي",
+   "setting": "ب",
+   "source": "asr",
+   "query_text": "عدد الاستعالمات: 1",
+   "processed": "",
+   "hits": "",
+   "precision_5": "0.800",
+   "rank_first_relevant": "",
+   "rr": "1.000",
+   "no_results": 0
+  },
+  {
+   "query_id": 1,
+   "category": "مباشرة",
+   "setting": "ج",
+   "source": "asr",
+   "query_text": "حقيبة ظهر جلدية",
+   "processed": "حقيبه ظهر جلديه",
+   "hits": "1 2 3 4 5",
+   "precision_5": "0.800",
+   "rank_first_relevant": 1,
+   "rr": "1.000",
+   "no_results": 0
+  },
+  {
+   "query_id": "—",
+   "category": "الإجمالي",
+   "setting": "ج",
+   "source": "asr",
+   "query_text": "عدد الاستعالمات: 1",
+   "processed": "",
+   "hits": "",
+   "precision_5": "0.800",
    "rank_first_relevant": "",
    "rr": "1.000",
    "no_results": 0
