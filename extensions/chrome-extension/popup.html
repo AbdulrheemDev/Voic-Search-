@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 320px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: #f8fafc;
+      color: #1e293b;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 10px;
+    }
+    .logo {
+      font-size: 24px;
+    }
+    .title {
+      font-size: 15px;
+      font-weight: 800;
+      color: #0f172a;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      background: #dbeafe;
+      color: #1d4ed8;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .section {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 10px;
+    }
+    .label {
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: #475569;
+    }
+    select, input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      font-size: 13px;
+    }
+    .status {
+      font-size: 12px;
+      color: #059669;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 8px;
+    }
+    .btn {
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 8px;
+      font-weight: 700;
+      width: 100%;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">🎙️</div>
+    <div>
+      <div class="title">البحث الصوتي الذكي للتسوق</div>
+      <span class="badge">الإصدار 1.0</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="label">اللهجة المفضلة للتعرف:</div>
+    <select id="dialect-select">
+      <option value="ar-SA">العربية (شامل / السعودية والخليج)</option>
+      <option value="ar-YE">العربية (اليمن)</option>
+      <option value="ar-EG">العربية (مصر)</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="label">حالة المحرك:</div>
+    <div class="status">✓ المساعد الصوتي نشط على جميع المتاجر</div>
+    <p style="font-size: 11px; color: #64748b; margin: 6px 0 0;">
+      يقوم المساعد بحقن زر الميكروفون تلقائياً في أي متجر تزوره، وتطبيع النص وسد الفجوة بالقاموس التجاري.
+    </p>
+  </div>
+</body>
+</html>

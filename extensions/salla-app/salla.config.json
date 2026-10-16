@@ -1,0 +1,30 @@
+{
+  "name": "محرك البحث الصوتي الذكي | Smart Voice Search",
+  "identifier": "smart-voice-search-salla",
+  "version": "1.0.0",
+  "vendor": "VoiceMedia Tech",
+  "type": "storefront_and_admin",
+  "scopes": [
+    "products.read",
+    "categories.read",
+    "webhooks.read_write"
+  ],
+  "events": [
+    "product.created",
+    "product.updated",
+    "product.deleted",
+    "category.created",
+    "category.updated"
+  ],
+  "webhooks_url": "https://api.voicesearch.app/webhooks/salla",
+  "oauth": {
+    "auth_url": "https://accounts.salla.sa/oauth2/auth",
+    "token_url": "https://accounts.salla.sa/oauth2/token",
+    "callback_url": "https://api.voicesearch.app/oauth/callback"
+  },
+  "twilight": {
+    "inject_script": "https://cdn.voicesearch.app/salla/twilight-voice.js",
+    "inject_style": "https://cdn.voicesearch.app/salla/twilight-voice.css",
+    "target_selector": ".salla-search-input, [data-salla-search]"
+  }
+}

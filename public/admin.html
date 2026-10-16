@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إدارة القاموس التجاري وفهرس البحث | الفصل الرابع</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-xl bg-purple-600 text-white flex items-center justify-center text-xl font-bold">
+          📚
+        </div>
+        <div>
+          <h1 class="text-lg font-black text-slate-900">إدارة القاموس التجاري وفهرس المنتجات</h1>
+          <p class="text-xs text-slate-500 font-medium">جدول lexicon_entries ونقاط التكامل الرابعة (FR-06, FR-08)</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="/" class="px-4 py-2 rounded-xl text-sm font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 transition">
+          🛒 المتجر
+        </a>
+        <a href="/tests.html" class="px-4 py-2 rounded-xl text-sm font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 transition">
+          📊 لوحة الاختبارات
+        </a>
+        <a href="/docs/Graduation_Project_Full_Book.pdf" target="_blank" class="px-4 py-2 rounded-xl text-sm font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 hover:bg-emerald-100 transition">
+          📥 التقرير الكامل (PDF)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      
+      <!-- Left Column: Add New Lexicon Entry & Reindex Actions -->
+      <div class="space-y-6">
+        
+        <!-- Add Entry Card -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-extrabold text-slate-900 text-base mb-4 flex items-center gap-2">
+            <span>➕</span> إضافة مدخل جديد للقاموس التجاري
+          </h3>
+
+          <form id="add-lexicon-form" class="space-y-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">اللفظ المستعلم (العامي/البديل):</label>
+              <input type="text" id="lex-term" required placeholder="مثال: شنطة ظهر، كوتشي، شوز" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:border-blue-500">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">المصطلح المعتمد في المتجر:</label>
+              <input type="text" id="lex-canonical" required placeholder="مثال: حقيبة ظهر، حذاء رياضي" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:border-blue-500">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">نوع العلاقة (Relation Type):</label>
+              <select id="lex-type" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-sm font-bold focus:outline-none focus:border-blue-500">
+                <option value="substitution">استبدال (Substitution: دارج أو أجنبي ➔ معتمد)</option>
+                <option value="equivalence">تكافؤ (Equivalence: مترادفان كلاهما بالبيانات)</option>
+              </select>
+            </div>
+
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl text-sm shadow-sm transition">
+              حفظ وتطبيق فوراً
+            </button>
+          </form>
+        </div>
+
+        <!-- Index Control Card (FR-08, TC-10) -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-extrabold text-slate-900 text-base mb-2 flex items-center gap-2">
+            <span>🔄</span> مزامنة الفهرس التلقائية
+          </h3>
+          <p class="text-xs text-slate-500 leading-relaxed mb-4">
+            إعادة بناء فهرس المنتجات ومزامنة المرادفات مع قاعدة البيانات، محاكياً حزمة Laravel Scout.
+          </p>
+          <button id="reindex-btn" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-4 rounded-xl text-sm transition">
+            إعادة بناء الفهرس الآن
+          </button>
+          <div id="reindex-status" class="hidden mt-3 p-2.5 rounded-xl bg-emerald-50 text-emerald-800 text-xs font-bold text-center"></div>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Current Lexicon Table -->
+      <div class="lg:col-span-2">
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
+            <div>
+              <h3 class="font-extrabold text-slate-900 text-base">جدول (11.3): مداخل القاموس التجاري الحالية</h3>
+              <p class="text-xs text-slate-500">المداخل المسجلة في جدول lexicon_entries مع صيغتها المطبَّعة</p>
+            </div>
+            <span id="lex-count" class="px-3 py-1 bg-purple-50 text-purple-700 font-bold rounded-full text-xs">0 مدخل</span>
+          </div>
+
+          <div class="overflow-x-auto max-h-[650px] overflow-y-auto">
+            <table class="w-full text-right text-xs">
+              <thead class="bg-slate-50 text-slate-700 font-bold sticky top-0 border-b border-slate-200">
+                <tr>
+                  <th class="p-3">#</th>
+                  <th class="p-3">اللفظ الأصلي</th>
+                  <th class="p-3">اللفظ المطبَّع</th>
+                  <th class="p-3">المصطلح المعتمد</th>
+                  <th class="p-3">نوع العلاقة</th>
+                  <th class="p-3 text-center">إجراء</th>
+                </tr>
+              </thead>
+              <tbody id="lexicon-tbody" class="divide-y divide-slate-100">
+                <!-- Loaded via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script>
+    async function loadLexicon() {
+      const tbody = document.getElementById('lexicon-tbody');
+      tbody.innerHTML = '<tr><td colspan="6" class="text-center p-6 text-slate-400">جاري تحميل القاموس...</td></tr>';
+      try {
+        const res = await fetch('/api/lexicon');
+        const data = await res.json();
+        if (data.success) {
+          document.getElementById('lex-count').textContent = `${data.count} مدخل`;
+          tbody.innerHTML = data.entries.map(e => `
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-3 font-mono text-slate-400">${e.id}</td>
+              <td class="p-3 font-bold text-slate-800">${e.term}</td>
+              <td class="p-3 font-mono text-blue-600">${e.normalized_term}</td>
+              <td class="p-3 font-bold text-emerald-700">${e.canonical_term}</td>
+              <td class="p-3">
+                <span class="px-2 py-0.5 rounded-full text-[11px] font-bold ${e.relation_type === 'substitution' ? 'bg-amber-100 text-amber-800' : 'bg-blue-100 text-blue-800'}">
+                  ${e.relation_type === 'substitution' ? 'استبدال' : 'تكافؤ'}
+                </span>
+              </td>
+              <td class="p-3 text-center">
+                <button class="delete-lex-btn text-red-500 hover:text-red-700 font-bold" data-id="${e.id}">حذف</button>
+              </td>
+            </tr>
+          `).join('');
+
+          tbody.querySelectorAll('.delete-lex-btn').forEach(btn => {
+            btn.addEventListener('click', async () => {
+              const id = btn.getAttribute('data-id');
+              if (confirm('هل أنت متأكد من حذف هذا المدخل؟')) {
+                await fetch(`/api/lexicon/${id}`, { method: 'DELETE' });
+                loadLexicon();
+              }
+            });
+          });
+        }
+      } catch (e) {
+        tbody.innerHTML = '<tr><td colspan="6" class="text-center p-6 text-red-500">فشل التحميل</td></tr>';
+      }
+    }
+
+    document.getElementById('add-lexicon-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const term = document.getElementById('lex-term').value.trim();
+      const canonical_term = document.getElementById('lex-canonical').value.trim();
+      const relation_type = document.getElementById('lex-type').value;
+
+      const res = await fetch('/api/lexicon', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ term, canonical_term, relation_type })
+      });
+      const data = await res.json();
+      if (data.success) {
+        document.getElementById('add-lexicon-form').reset();
+        loadLexicon();
+        alert('تمت إضافة المدخل وتحديث الفهرس تلقائياً!');
+      }
+    });
+
+    document.getElementById('reindex-btn').addEventListener('click', async () => {
+      const btn = document.getElementById('reindex-btn');
+      const status = document.getElementById('reindex-status');
+      btn.disabled = true;
+      btn.textContent = 'جاري إعادة البناء...';
+      const res = await fetch('/api/reindex', { method: 'POST' });
+      const data = await res.json();
+      btn.disabled = false;
+      btn.textContent = 'إعادة بناء الفهرس الآن';
+      status.classList.remove('hidden');
+      status.textContent = data.message;
+      setTimeout(() => status.classList.add('hidden'), 3500);
+    });
+
+    loadLexicon();
+  </script>
+</body>
+</html>

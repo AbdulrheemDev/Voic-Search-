@@ -1,0 +1,108 @@
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-light: #dbeafe;
+  --secondary: #0f172a;
+  --accent: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --bg-main: #f8fafc;
+  --card-bg: #ffffff;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, -apple-system, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  direction: rtl;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Microphone Pulse Animation */
+@keyframes micPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 0 16px rgba(239, 68, 68, 0);
+    transform: scale(1.08);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+    transform: scale(1);
+  }
+}
+
+.mic-active {
+  animation: micPulse 1.5s infinite;
+  background-color: #ef4444 !important;
+  color: white !important;
+}
+
+/* Audio wave animation bars */
+.sound-wave {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 28px;
+}
+
+.sound-bar {
+  width: 4px;
+  height: 8px;
+  background-color: #ef4444;
+  border-radius: 2px;
+  animation: soundBar 1s ease-in-out infinite alternate;
+}
+
+.sound-bar:nth-child(1) { animation-delay: 0.1s; height: 14px; }
+.sound-bar:nth-child(2) { animation-delay: 0.3s; height: 24px; }
+.sound-bar:nth-child(3) { animation-delay: 0.5s; height: 18px; }
+.sound-bar:nth-child(4) { animation-delay: 0.2s; height: 28px; }
+.sound-bar:nth-child(5) { animation-delay: 0.4s; height: 12px; }
+
+@keyframes soundBar {
+  0% { transform: scaleY(0.3); }
+  100% { transform: scaleY(1.2); }
+}
+
+/* Card hover */
+.product-card {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.12);
+}
+
+/* Pipeline Step Badge */
+.pipeline-step {
+  position: relative;
+  transition: all 0.2s ease;
+}
+.pipeline-step:hover {
+  background-color: #f1f5f9;
+}
