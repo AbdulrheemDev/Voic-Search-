@@ -1,0 +1,68 @@
+id,term,canonical_term,relation_type
+1,شنطة,حقيبة,substitution
+2,شنطة ظهر,حقيبة ظهر,substitution
+3,شنطة يد,حقيبة يد,substitution
+4,شنطة سفر,حقيبة سفر,substitution
+5,شنطة مدرسية,حقيبة مدرسية,substitution
+6,جزمة,حذاء,substitution
+7,جزمة رياضية,حذاء رياضي,substitution
+8,جزمة نسائية,حذاء نسائي,substitution
+9,شبشب جلد,صندل جلد,substitution
+10,موبايل,هاتف,substitution
+11,موبايل سامسونج,هاتف سامسونج,substitution
+12,موبايل شاومي,هاتف شاومي,substitution
+13,تلفون,هاتف,substitution
+14,جوال,هاتف,substitution
+15,لابتوب,حاسوب محمول,substitution
+16,لابتوب اتش بي,حاسوب محمول اتش بي,substitution
+17,لابتوب ديل,حاسوب محمول ديل,substitution
+18,لاب توب,حاسوب محمول,substitution
+19,كمبيوتر,حاسوب,substitution
+20,صوفا,أريكة,substitution
+21,صوفا ثلاثية,أريكة ثلاثية,substitution
+22,كرسي شغل,كرسي مكتبي,substitution
+23,مكتب,طاولة,substitution
+24,تي شيرت قطني رجالي,قميص قطني رجالي,substitution
+25,تي شيرت,قميص,substitution
+26,بنطلون,بنطال,substitution
+27,جينز,جينز,substitution
+28,فستان سواريه,فستان صيفي,substitution
+29,جيبة,تنورة,substitution
+30,جيبة نسائية,تنورة نسائية,substitution
+31,عطر عود,عطر عود فاخر,substitution
+32,بخور,عطر,substitution
+33,تلاجة,ثلاجة,substitution
+34,ثلاجه,ثلاجة,substitution
+35,غسالة اوتوماتيك,غسالة ملابس,substitution
+36,كندشن,مكيف سبليت,substitution
+37,مكيف جداري,مكيف سبليت,substitution
+38,مروحة,مكواة,substitution
+39,ساعة سمارت,ساعة ذكية,substitution
+40,ساعه ذكيه,ساعة ذكية,substitution
+41,نضارة,نظارة,substitution
+42,عدسات,عدسات لاصقة,substitution
+43,طقم حلل,طقم قدور,substitution
+44,حلل,قدور,substitution
+45,مقلاية,مقلاة,substitution
+46,بلندر,خلاط كهربائي,substitution
+47,خلاطة,خلاط كهربائي,substitution
+48,كاسات,أكواب,substitution
+49,مفرومة,مفرمة لحم,substitution
+50,كنبة,أريكة,equivalence
+51,قنفة,أريكة,equivalence
+52,هاتف ذكي,هاتف,equivalence
+53,حاسوب,حاسوب محمول,equivalence
+54,عباية,عبايا,equivalence
+55,طرحة,حجاب,equivalence
+56,جزمة رسمية,حذاء رسمي جلد,equivalence
+57,مكواة بخار,مكواة,equivalence
+58,محفظة,جزدان,equivalence
+59,سوداء,أسود,substitution
+60,حمراء,أحمر,substitution
+61,زرقاء,أزرق,substitution
+62,بيضاء,أبيض,substitution
+63,فضية,فضي,substitution
+64,رمادية,رمادي,substitution
+65,صفراء,أصفر,substitution
+66,خضراء,أخضر,substitution
+67,بنية,بني,substitution

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="الأحذية">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed822"/>
+      <stop offset="100%" stop-color="#1d4ed855"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g)"/>
+  <circle cx="200" cy="120" r="58" fill="#1d4ed833"/>
+  <text x="200" y="134" font-family="Simplified Arabic, Tahoma, sans-serif" font-size="46" font-weight="bold"
+        fill="#1d4ed8" text-anchor="middle">ا</text>
+  <text x="200" y="235" font-family="Simplified Arabic, Tahoma, sans-serif" font-size="24"
+        fill="#1d4ed8" text-anchor="middle">الأحذية</text>
+</svg>
