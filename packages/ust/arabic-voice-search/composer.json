@@ -1,0 +1,51 @@
+{
+    "name": "ust/arabic-voice-search",
+    "description": "محرك بحث صوتي ذكي باللغة العربية قابل للدمج في منصات التجارة الإلكترونية المبنية بـ Laravel وMySQL (مشروع تخرج - جامعة العلوم والتكنولوجيا، إب 2026/2027).",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "arabic",
+        "voice-search",
+        "e-commerce",
+        "meilisearch",
+        "laravel-scout",
+        "web-speech-api",
+        "bagisto"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "UST-Ibb IT Graduation Team (2026-2027)"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/http": "^11.0|^12.0",
+        "illuminate/database": "^11.0|^12.0",
+        "laravel/scout": "^10.11",
+        "meilisearch/meilisearch-php": "^1.11"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ust\\ArabicVoiceSearch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ust\\ArabicVoiceSearch\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ust\\ArabicVoiceSearch\\ArabicVoiceSearchServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
