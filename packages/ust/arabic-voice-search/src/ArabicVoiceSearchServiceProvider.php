@@ -68,6 +68,7 @@ class ArabicVoiceSearchServiceProvider extends ServiceProvider
             $this->commands([
                 Console\SyncMeilisearchSettingsCommand::class,
                 Console\VerifySchemaIntegrityCommand::class,
+                Console\RunEvaluationCommand::class,
             ]);
         }
     }

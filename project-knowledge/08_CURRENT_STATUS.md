@@ -64,6 +64,7 @@
 - **2026-11-25 (الدورة 4 — التحقق من NFR-02 ودليل الدمج في Bagisto 2.4):**
   - `src/Console/VerifySchemaIntegrityCommand.php`: أمر `arabic-voice-search:verify-nfr02` لأخذ لقطة مخطط قاعدة البيانات (`P0-6`) ومقارنتها بعد الدمج للتحقق الآلي من `NFR-02` (`C4-1`).
   - `docs/BAGISTO_2_4_INTEGRATION.md`: دليل الدمج الكامل في Bagisto 2.4 بنقاط التكامل الأربع المعتمدة.
+  - `src/Evaluation/MetricsCalculator.php` و`src/Console/RunEvaluationCommand.php`: حاسبة وأمر تشغيل التجارب الثلاث المعتمدة للفصل الرابع (`WER`، `P@5`/`MRR`/نسبة عدم وجود نتائج، وإحصاءات `Latency` بالملي ثانية دون تخزين الاستعلامات — `O6`, `NFR-06`) + `tests/Unit/Cycle4EvaluationMetricsTest.php`.
   - **ما يتبقى للتنفيذ على جهاز الفريق (Laragon + Chrome + Meilisearch):** تشغيل `composer update` و`php artisan test`، وتنفيذ التجارب الثلاث الميدانية (100 استعلام، 400 تسجيل صوتي، قياس `WER` و`P@5` و`MRR` والأزمنة) لتوثيق نتائجها الفعلية في الفصل الرابع.
 - **ملاحظة الجرد (P0-1):** يحتوي المستودع على ملفات سابقة (`app/Search/`، `server.js`، `extensions/`) لم تُحذف التزامًا بـ `CLAUDE.md` §13 بانتظار قرار الفريق بشأن عزلها.
 
